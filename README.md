@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1310812179.svg)](https://doi.org/10.5281/zenodo.21530769)
+
 # BioAge–EVI–O₃ Analysis Code
 
 Reproducible analysis pipeline for "Joint associations of residential greenness and ozone with biological ageing" (Nature Health submission).
