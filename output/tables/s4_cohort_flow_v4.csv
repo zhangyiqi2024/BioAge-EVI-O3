@@ -1,0 +1,10 @@
+"step","n_obs","n_participants"
+"0 Original merged observations (CHARLS waves 1-5)",96628,NA
+"1 Non-missing residence (city)",96628,NA
+"2 Age >= 45 years",94240,NA
+"3 Biomarker waves (2011 and 2015)",37049,NA
+"4 Complete core biomarkers",21630,NA
+"5 No prevalent major chronic disease at baseline",17502,NA
+"6 PhenoAge quality control (fasting, ranges, CRP < 10)",13111,NA
+"7 Observed at both biomarker waves",6568,3284
+"8 Analytical sample (45 < age < 90, exposures + covariates)",6472,3281

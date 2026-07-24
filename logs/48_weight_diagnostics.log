@@ -1,0 +1,27 @@
+
+===  1KM  | N = 6471  | groups: 1=2273, 2=1584, 3=1555, 4=1059 
+   scale    n w_mean  w_sd w_min w_p01 w_p05 w_p25 w_median w_p75 w_p95 w_p99
+1%   1KM 6471  3.987 1.443 2.226 2.226  2.66 2.881     3.75 4.268 7.557 9.681
+   w_max   w_cv  ess ess_pct ess_g1 ess_g2 ess_g3 ess_g4
+1% 9.753 0.3619 5722   88.42   2248   1576   1488  946.2
+
+===  500m  | N = 6471  | groups: 1=2720, 2=2177, 3=1108, 4=466 
+   scale    n w_mean  w_sd w_min w_p01 w_p05 w_p25 w_median w_p75 w_p95 w_p99
+1%  500m 6471  3.965 3.202 1.946 1.946 2.096 2.284    2.893 3.667 11.09 19.51
+   w_max   w_cv  ess ess_pct ess_g1 ess_g2 ess_g3 ess_g4
+1% 19.76 0.8076 3917   60.53   2683   2140   1026  423.4
+
+Weighted SMD > 0.1 flags: 19 of 34 
+   scale       covariate max_smd_unweighted max_smd_weighted imbalance_flag
+27  500m     climate_pc2             1.0170           1.0072           TRUE
+10   1KM     climate_pc2             0.9870           0.9507           TRUE
+28  500m     climate_pc3             0.9716           0.9078           TRUE
+9    1KM     climate_pc1             0.8772           0.9035           TRUE
+11   1KM     climate_pc3             0.8365           0.8421           TRUE
+26  500m     climate_pc1             0.7739           0.8184           TRUE
+12   1KM     climate_pc4             0.3669           0.4448           TRUE
+29  500m     climate_pc4             0.3527           0.3770           TRUE
+13   1KM     climate_pc5             0.3242           0.3341           TRUE
+24  500m smoking_current             0.2301           0.2273           TRUE
+
+Done. output/tables/weight_distribution_v5.csv + weight_balance_smd_v5.csv

@@ -1,0 +1,11 @@
+# R session artifacts
+.Rhistory
+.RData
+.Ruserdata
+Rplots.pdf
+# Word/Office locks
+~$*
+*.bak
+# OS
+Thumbs.db
+.DS_Store

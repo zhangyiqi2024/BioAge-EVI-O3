@@ -1,0 +1,15 @@
+Predictive scenario analysis completed.
+                                 scenario    N eligible_evi_n eligible_o3_n
+1 EVI-only: values below 0.40 set to 0.40 5914           4898          5914
+2      O3-only: values above 60 set to 60 5914           4898          5914
+3       Joint: EVI and O3 targets applied 5914           4898          5914
+  eligible_both_n mean_predicted_BAA_difference sd_predicted_BAA_difference
+1            4898                    -0.3925623                   0.6578866
+2            4898                    -0.3398051                   0.4678811
+3            4898                    -0.6349551                   0.7817345
+  median_predicted_BAA_difference ci_lower_naive ci_upper_naive
+1                      -0.1385255     -0.4093297     -0.3757949
+2                      -0.2879685     -0.3517299     -0.3278803
+3                      -0.4890977     -0.6548790     -0.6150311
+  N_train N_test best_iteration RMSE_test     R2_test
+1    4734   1180              9  14.99146 0.004454752

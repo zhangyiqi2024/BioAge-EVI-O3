@@ -1,0 +1,4 @@
+1KM : DiD = 0.509 SE = 0.984 | MDE = 2.755 | TOST p = 0.309 | equivalent: FALSE 
+500m : DiD = 0.348 SE = 1.24 | MDE = 3.471 | TOST p = 0.2996 | equivalent: FALSE 
+
+Done. output/tables/did_mde_tost_v5.csv

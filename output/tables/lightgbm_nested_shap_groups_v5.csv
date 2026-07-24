@@ -1,0 +1,8 @@
+"group","mean_abs_shap","share_pct","features"
+"Climate (PC1-PC5)",1.71086208033713,48.5300387272508,"climate_pc1, climate_pc2, climate_pc3, climate_pc4, climate_pc5"
+"Socioeconomic",0.509053673241993,14.4397346581059,"ln_hh_consumption_total, retirement, pension_insurance"
+"Exposures (EVI + O3)",0.474565951550582,13.4614614889624,"EVI_1KM_mean4y, O3_1KM_mean4y"
+"Health status",0.378878910385854,10.7472182622347,"bmi, hypertension, dyslipidemia"
+"Demographics (age, sex)",0.357473708163279,10.1400417371571,"age, sex"
+"Lifestyle (smoking, alcohol)",0.0704683698506587,1.99889445046606,"smoking_current, alcohol_current"
+"Survey year",0.0240645330505996,0.682610675822963,"year"

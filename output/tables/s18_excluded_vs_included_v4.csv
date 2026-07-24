@@ -1,0 +1,11 @@
+"Characteristic","Excluded","Included","Std_diff","N_excluded","N_included"
+"Age, years","62.04 (9.04)","58.80 (8.55)",0.367,2471,3197
+"Female, n (%)","1311 (53.1)","1696 (53.0)",0,2471,3197
+"Body mass index, kg/m2 (plausible range 12-60)","23.86 (4.26)","23.28 (3.61)",0.147,2414,3194
+"Current smoking, n (%)","673 (27.4)","1027 (32.1)",-0.102,2453,3197
+"Current alcohol use, n (%)","667 (27.0)","1123 (35.1)",-0.175,2470,3197
+"Hypertension, n (%)","1022 (41.5)","686 (21.5)",0.438,2460,3197
+"Dyslipidaemia, n (%)","482 (19.9)","184 (5.8)",0.437,2424,3197
+"EVI (1-km buffer, 4-year average)","0.35 (0.04)","0.35 (0.04)",0.013,2083,2785
+"O3 (1-km, 4-year average), ug/m3","84.21 (7.04)","84.14 (6.83)",0.009,2083,2785
+"BAA (PhenoAge), years","not applicable (see note)","0.18 (14.86)",NA,NA,3197

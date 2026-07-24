@@ -1,0 +1,7 @@
+IV model frame N: 5832 
+full coefficient rows: 122 
+verification: max |dBeta| = 4.26e-14, max |dSE| = 4.62e-14 (must be < 1e-6 / 1e-6)
+VERIFIED: full tables consistent with iv_estimates_v4.csv
+null device 
+          1 
+forest plot saved: output/figures/iv_forest_v4.png

@@ -1,0 +1,7 @@
+"classification","buffer","contrast","beta","se","pval","ci_low","ci_high","nobs"
+"Original K-means (R replication)","1KM","Low-EVI/High-O3 vs Reference",0.8434,0.5862,0.1503,-0.3057,1.9924,6471
+"Original K-means (R replication)","1KM","High-EVI/Low-O3 vs Reference",-1.549,0.62,0.0125,-2.7643,-0.3338,6471
+"Original K-means (R replication)","1KM","High-EVI/High-O3 vs Reference",-0.1969,0.6503,0.7621,-1.4715,1.0777,6471
+"Original K-means (R replication)","500m","Low-EVI/High-O3 vs Reference",0.8113,0.5066,0.1093,-0.1816,1.8043,6471
+"Original K-means (R replication)","500m","High-EVI/Low-O3 vs Reference",-1.3855,0.6929,0.0455,-2.7435,-0.0275,6471
+"Original K-means (R replication)","500m","High-EVI/High-O3 vs Reference",-0.0262,0.8737,0.9761,-1.7386,1.6863,6471

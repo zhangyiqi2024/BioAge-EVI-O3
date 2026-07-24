@@ -1,0 +1,33 @@
+Benchmark model frame: N obs = 6471  N participants = 3281 
+
+Current smoking (vs. never)       +0.849 [ -0.212,  +1.911]  p = 0.1168
+Obesity (BMI >= 28)               -1.040 [ -2.364,  +0.284]  p = 0.1236
+Hypertension                      -0.511 [ -1.451,  +0.429]  p = 0.2866
+Low education (< junior high)     -0.123 [ -1.760,  +1.514]  p = 0.883
+Current alcohol use               -0.089 [ -0.974,  +0.795]  p = 0.8432
+High vs Low EVI (dual-exposure, 1 km)  -1.318 [ -2.219,  -0.417]  p = 0.004167
+High vs Low O3 (dual-exposure, 1 km)  +1.114 [ +0.222,  +2.006]  p = 0.01435
+
+=== S21 v4 (recomputed) ===
+              domain                           risk_factor baa_diff    lci
+         Behavioural           Current smoking (vs. never)    0.849 -0.212
+         Behavioural                   Obesity (BMI >= 28)   -1.040 -2.364
+         Behavioural                          Hypertension   -0.511 -1.451
+         Behavioural         Low education (< junior high)   -0.123 -1.760
+         Behavioural                   Current alcohol use   -0.089 -0.974
+       Environmental High vs Low EVI (dual-exposure, 1 km)   -1.318 -2.219
+       Environmental  High vs Low O3 (dual-exposure, 1 km)    1.114  0.222
+ Environmental (IQR)   Per IQR EVI (single-exposure, 1 km)   -0.554 -1.058
+ Environmental (IQR)    Per IQR O3 (single-exposure, 1 km)    0.648  0.181
+    uci       p significant n_obs n_participants
+  1.911 0.11700          No  6471           3281
+  0.284 0.12400          No  6471           3281
+  0.429 0.28700          No  6471           3281
+  1.514 0.88300          No  6471           3281
+  0.795 0.84300          No  6471           3281
+ -0.417 0.00417         Yes  6471           3281
+  2.006 0.01440         Yes  6471           3281
+ -0.050 0.03100         Yes  6471           3281
+  1.115 0.00700         Yes  6471           3281
+
+Done. CSV written to output/tables/s21_clinical_benchmarks_v4.csv

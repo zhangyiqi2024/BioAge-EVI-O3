@@ -1,0 +1,20 @@
+=== LightGBM model SHAP analysis report ===
+
+Analysis time:2026-07-22 16:34:28
+
+1. Overview
+SHAP (SHapley Additive exPlanations) is used to explain ML model predictions.
+
+2. Key indicators
+Baseline prediction:0.034
+Number of samples:1180
+Number of features:18
+
+3. File list:
+- LightGBM_SHAP_summary.png
+- LightGBM_SHAP_waterfall.png
+- SHAP_values_LightGBM.csv
+- SHAP_explainability_beeswarm.png
+- LightGBM_importance_vs_SHAP.png
+- LightGBM_SHAP_advanced_summary.png
+
