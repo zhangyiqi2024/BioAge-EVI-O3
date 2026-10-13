@@ -1,7 +1,0 @@
-"step","n_obs","expected_s4","match"
-"0 Original merged observations",96628,96628,TRUE
-"1 Non-missing residence (city)",96628,96628,TRUE
-"2 Age >= 45 years",94240,94240,TRUE
-"3 Biomarker waves (2011 and 2015)",37049,37049,TRUE
-"4 Complete core biomarkers",21630,21630,TRUE
-"5 No prevalent major chronic disease at baseline",17502,17502,TRUE

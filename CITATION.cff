@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use the code or aggregate source data, please cite the manuscript and this release."
+title: "Code and aggregate source data for joint associations of residential greenness and ozone with biological ageing"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: YiQi
+  - family-names: Ying
+    given-names: Jun
+  - family-names: Zhang
+    given-names: Ruiwu
+  - family-names: Zhang
+    given-names: Youyou
+repository-code: "https://github.com/zhangyiqi2024/BioAge-EVI-O3"
+license: MIT
+version: "2026.10.13"
+date-released: "2026-10-13"
+abstract: "Aggregate-only reproduction package for the manuscript Joint associations of residential greenness and ozone with biological ageing. The public Python path rebuilds the displayed main and supplementary figures and tables without distributing individual-level CHARLS records or environmental rasters."

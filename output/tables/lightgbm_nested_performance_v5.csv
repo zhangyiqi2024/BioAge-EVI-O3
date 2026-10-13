@@ -1,2 +1,0 @@
-"model","n_train","n_val","n_test","best_iter","r2_test","rmse_test","mae_test"
-"LightGBM nested (participant-level split)",3543,1187,1184,28,-0.0131638531797484,14.9862039846096,11.9625980321897

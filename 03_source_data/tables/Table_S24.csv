@@ -1,0 +1,18 @@
+column_01,column_02,column_03,column_04,column_05,column_06,column_07
+Scale,Weighting,Exposure,Model,"β per IQR (95% CI), years",P,N
+1 km,Unweighted,EVI,Dual,"-0.59 (-1.07, -0.11)",0.016,"5,914"
+1 km,Unweighted,O₃,Dual,"0.67 (0.23, 1.12)",0.003,"5,914"
+1 km,Unweighted,EVI,Single,"-0.55 (-1.04, -0.07)",0.024,"5,914"
+1 km,Unweighted,O₃,Single,"0.65 (0.20, 1.09)",0.004,"5,914"
+1 km,IPW,EVI,Dual,"-0.28 (-1.02, 0.47)",0.465,"5,914"
+1 km,IPW,O₃,Dual,"1.02 (0.40, 1.63)",0.001,"5,914"
+1 km,IPW,EVI,Single,"-0.20 (-0.95, 0.54)",0.592,"5,914"
+1 km,IPW,O₃,Single,"0.99 (0.37, 1.61)",0.002,"5,914"
+500 m,Unweighted,EVI,Dual,"-0.52 (-1.00, -0.05)",0.030,"5,914"
+500 m,Unweighted,O₃,Dual,"0.66 (0.19, 1.13)",0.006,"5,914"
+500 m,Unweighted,EVI,Single,"-0.50 (-0.98, -0.03)",0.037,"5,914"
+500 m,Unweighted,O₃,Single,"0.64 (0.18, 1.11)",0.007,"5,914"
+500 m,IPW,EVI,Dual,"0.21 (-0.71, 1.13)",0.656,"5,914"
+500 m,IPW,O₃,Dual,"1.00 (0.34, 1.66)",0.003,"5,914"
+500 m,IPW,EVI,Single,"0.24 (-0.68, 1.16)",0.612,"5,914"
+500 m,IPW,O₃,Single,"1.01 (0.35, 1.68)",0.003,"5,914"

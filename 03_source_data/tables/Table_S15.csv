@@ -1,0 +1,8 @@
+column_01,column_02,column_03,column_04,column_05
+Stratum,Outcome,Adjusted contrast,Difference in adjusted marginal mean (years),Direction
+Overall,Biological age (BA),High EVI vs. low EVI,-2.13,Younger BA with high EVI
+Overall,Biological age acceleration (BAA),High EVI vs. low EVI,-1.09,Lower BAA with high EVI
+Low O₃ stratum,Biological age (BA),High EVI vs. low EVI,-1.90,Younger BA with high EVI
+Low O₃ stratum,Biological age acceleration (BAA),High EVI vs. low EVI,-0.88,Lower BAA with high EVI
+High O₃ stratum,Biological age (BA),High EVI vs. low EVI,-3.24,Younger BA with high EVI
+High O₃ stratum,Biological age acceleration (BAA),High EVI vs. low EVI,-1.78,Lower BAA with high EVI

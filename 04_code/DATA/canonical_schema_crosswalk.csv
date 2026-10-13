@@ -1,0 +1,206 @@
+internal_variable,canonical_variable,paper_term,buffer,time_window,label
+id,participant_id,CHARLS participant identifier (restricted),,,CHARLS participant identifier (restricted)
+year,survey_year,Survey year,,,Survey year
+city,city,Residence city (restricted),,,Residence city (restricted)
+BA_PhenoAge,stored_biological_age,Stored biological age,,,Stored biological age (years; supplied study-specific measure)
+BAA_PhenoAge,stored_baa,Stored BAA,,,Stored biological age acceleration (years; supplied study-specific measure)
+wave,survey_wave,CHARLS survey wave,,,CHARLS survey wave
+province_code,province_code,Residence province code (restricted),,,Residence province code (restricted)
+city_code,city_code,Residence city code (restricted),,,Residence city code (restricted)
+sex,sex,Sex,,,Sex
+age,chronological_age,Chronological age,,,Chronological age (years)
+education_raw,education_raw,Original education category,,,Original education category
+education,education,Harmonised education category,,,Harmonised education category
+hukou_type,hukou_type,Household registration type,,,Household registration type
+han_ethnicity,han_ethnicity,Han ethnicity,,,Han ethnicity
+marital_status,marital_status,Marital status,,,Marital status
+urban_rural,urban_rural,Urban or rural residence,,,Urban or rural residence
+employed,employed,Employment status,,,Employment status
+retirement,retirement,Retirement status,,,Retirement status
+hypertension,hypertension,Hypertension,,,Hypertension
+dyslipidemia,dyslipidemia,Dyslipidemia,,,Dyslipidemia
+diabetes,diabetes,Diabetes,,,Diabetes
+cancer,cancer,Cancer,,,Cancer
+lung_disease,lung_disease,Lung disease,,,Lung disease
+heart_disease,heart_disease,Heart disease,,,Heart disease
+stroke,stroke,Stroke,,,Stroke
+memory_disease,memory_disease,Memory disease,,,Memory disease
+arthritis,arthritis,Arthritis,,,Arthritis
+asthma,asthma,Asthma,,,Asthma
+outpatient_visits,outpatient_visits,Number of outpatient visits in the preceding month,,,Number of outpatient visits in the preceding month
+inpatient_visits,inpatient_visits,Number of hospital admissions in the preceding year,,,Number of hospital admissions in the preceding year
+pa_vigorous,pa_vigorous,Physical activity vigorous,,,Physical activity vigorous
+pa_moderate,pa_moderate,Physical activity moderate,,,Physical activity moderate
+pa_light,pa_light,Physical activity light,,,Physical activity light
+days_vigorous,days_vigorous,Days vigorous,,,Days vigorous
+days_moderate,days_moderate,Days moderate,,,Days moderate
+days_light,days_light,Days light,,,Days light
+hobbies,hobbies,Hobbies,,,Hobbies
+self_rated_health,self_rated_health,Self rated health,,,Self rated health
+adl_difficulty,adl_difficulty,Difficulty in any of six activities of daily living,,,Difficulty in any of six activities of daily living
+smoking_current,smoking_current,Current smoking,,,Current smoking
+alcohol_current,alcohol_current,Current alcohol consumption,,,Current alcohol consumption
+hospital,hospital,Any hospital admission in the preceding year,,,Any hospital admission in the preceding year
+pension_insurance,pension_insurance,Pension insurance coverage,,,Pension insurance coverage
+medical_insurance,medical_insurance,Medical insurance coverage,,,Medical insurance coverage
+cognitive_ability,cognitive_ability,Cognitive score (0-21; higher is better),,,Cognitive score (0-21; higher is better)
+social_participation,social_participation,Participation in social activities each month,,,Participation in social activities each month
+hh_consumption_total,hh_consumption_total,Total household consumption,,,Total household consumption
+hh_consumption_percapita,hh_consumption_percapita,Household consumption per capita,,,Household consumption per capita
+hh_income_total,hh_income_total,Total household income,,,Total household income
+mental_health,mental_health,Depressive symptom score (0-30; higher is worse),,,Depressive symptom score (0-30; higher is worse)
+life_satisfaction,life_satisfaction,Life satisfaction,,,Life satisfaction
+pa_moderate_vigorous_weekly,pa_moderate_vigorous_weekly,Physical activity moderate vigorous weekly,,,Physical activity moderate vigorous weekly
+metabolic_activity,metabolic_activity,Physical activity: total weekly metabolic equivalents,,,Physical activity: total weekly metabolic equivalents
+social_isolation1,social_isolation1,Social isolation score (0-4),,,Social isolation score (0-4)
+social_isolation2,social_isolation2,Social isolation score (0-6),,,Social isolation score (0-6)
+disability,disability,Disability,,,Disability
+bmi,bmi,Body mass index (kg/m2),,,Body mass index (kg/m2)
+outpatient_cost_total,outpatient_cost_total,Total outpatient expenditure,,,Total outpatient expenditure
+bl_tg,bl_tg,Triglycerides (mg/dL),,,Triglycerides (mg/dL)
+bl_hdl,bl_hdl,HDL cholesterol (mg/dL),,,HDL cholesterol (mg/dL)
+bl_ldl,bl_ldl,LDL cholesterol (mg/dL),,,LDL cholesterol (mg/dL)
+bl_hbalc,bl_hbalc,Glycated haemoglobin (%),,,Glycated haemoglobin (%)
+region_class1,region_class1,"Macroregion (east, central, west)",,,"Macroregion (east, central, west)"
+hu_line,hu_line,Region relative to Hu Huanyong line,,,Region relative to Hu Huanyong line
+region_class2,region_class2,North/south region relative to Qinling-Huaihe line,,,North/south region relative to Qinling-Huaihe line
+region,region,Geographical region,,,Geographical region
+lat,lat,City latitude (degrees; restricted location information),,,City latitude (degrees; restricted location information)
+PM25_1KM,pm25_1km,PM25 1KM (ug/m3),1 km,,PM25 1KM (ug/m3)
+PM10_1KM,pm10_1km,PM10 1KM (ug/m3),1 km,,PM10 1KM (ug/m3)
+O3_1KM,o3_1km,Ozone (O3),1 km,,O3 1KM (ug/m3)
+EVI_1KM,evi_1km,Residential greenness (EVI),1 km,,EVI 1KM (unitless)
+PM25_500m,pm25_500m,PM25 500m (ug/m3),500 m,,PM25 500m (ug/m3)
+PM10_500m,pm10_500m,PM10 500m (ug/m3),500 m,,PM10 500m (ug/m3)
+O3_500m,o3_500m,Ozone (O3),500 m,,O3 500m (ug/m3)
+EVI_500m,evi_500m,Residential greenness (EVI),500 m,,EVI 500m (unitless)
+WIND,wind,Wind (climate adjustment input),,,Wind (climate adjustment input)
+SNOW,snow,Snow (climate adjustment input),,,Snow (climate adjustment input)
+TMP,tmp,Temperature (climate adjustment input),,,Temperature (climate adjustment input)
+PM25,pm25,PM25 (ug/m3),,,PM25 (ug/m3)
+PM10,pm10,PM10 (ug/m3),,,PM10 (ug/m3)
+PER,per,Precipitation (climate adjustment input),,,Precipitation (climate adjustment input)
+O3,o3,Ozone (O3),,,O3 (ug/m3)
+EVI,evi,Residential greenness (EVI),,,EVI (unitless)
+DEM,dem,Elevation (digital elevation model),,,Elevation (digital elevation model)
+PM25_1KM_lag1,pm25_1km_lag1,PM25 1KM lag 1 (ug/m3),1 km,,PM25 1KM lag 1 (ug/m3)
+PM10_1KM_lag1,pm10_1km_lag1,PM10 1KM lag 1 (ug/m3),1 km,,PM10 1KM lag 1 (ug/m3)
+O3_1KM_lag1,o3_1km_lag1,Ozone (O3),1 km,,O3 1KM lag 1 (ug/m3)
+EVI_1KM_lag1,evi_1km_lag1,Residential greenness (EVI),1 km,,EVI 1KM lag 1 (unitless)
+PM25_500m_lag1,pm25_500m_lag1,PM25 500m lag 1 (ug/m3),500 m,,PM25 500m lag 1 (ug/m3)
+PM10_500m_lag1,pm10_500m_lag1,PM10 500m lag 1 (ug/m3),500 m,,PM10 500m lag 1 (ug/m3)
+O3_500m_lag1,o3_500m_lag1,Ozone (O3),500 m,,O3 500m lag 1 (ug/m3)
+EVI_500m_lag1,evi_500m_lag1,Residential greenness (EVI),500 m,,EVI 500m lag 1 (unitless)
+PM25_lag1,pm25_lag1,PM25 lag 1 (ug/m3),,,PM25 lag 1 (ug/m3)
+PM10_lag1,pm10_lag1,PM10 lag 1 (ug/m3),,,PM10 lag 1 (ug/m3)
+O3_lag1,o3_lag1,Ozone (O3),,,O3 lag 1 (ug/m3)
+EVI_lag1,evi_lag1,Residential greenness (EVI),,,EVI lag 1 (unitless)
+O3_1KM_lag2,o3_1km_lag2,Ozone (O3),1 km,,O3 1KM lag 2 (ug/m3)
+EVI_1KM_lag2,evi_1km_lag2,Residential greenness (EVI),1 km,,EVI 1KM lag 2 (unitless)
+O3_500m_lag2,o3_500m_lag2,Ozone (O3),500 m,,O3 500m lag 2 (ug/m3)
+EVI_500m_lag2,evi_500m_lag2,Residential greenness (EVI),500 m,,EVI 500m lag 2 (unitless)
+O3_lag2,o3_lag2,Ozone (O3),,,O3 lag 2 (ug/m3)
+EVI_lag2,evi_lag2,Residential greenness (EVI),,,EVI lag 2 (unitless)
+O3_1KM_lag3,o3_1km_lag3,Ozone (O3),1 km,,O3 1KM lag 3 (ug/m3)
+EVI_1KM_lag3,evi_1km_lag3,Residential greenness (EVI),1 km,,EVI 1KM lag 3 (unitless)
+O3_500m_lag3,o3_500m_lag3,Ozone (O3),500 m,,O3 500m lag 3 (ug/m3)
+EVI_500m_lag3,evi_500m_lag3,Residential greenness (EVI),500 m,,EVI 500m lag 3 (unitless)
+O3_lag3,o3_lag3,Ozone (O3),,,O3 lag 3 (ug/m3)
+EVI_lag3,evi_lag3,Residential greenness (EVI),,,EVI lag 3 (unitless)
+O3_1KM_lag4,o3_1km_lag4,Ozone (O3),1 km,,O3 1KM lag 4 (ug/m3)
+EVI_1KM_lag4,evi_1km_lag4,Residential greenness (EVI),1 km,,EVI 1KM lag 4 (unitless)
+O3_500m_lag4,o3_500m_lag4,Ozone (O3),500 m,,O3 500m lag 4 (ug/m3)
+EVI_500m_lag4,evi_500m_lag4,Residential greenness (EVI),500 m,,EVI 500m lag 4 (unitless)
+O3_lag4,o3_lag4,Ozone (O3),,,O3 lag 4 (ug/m3)
+EVI_lag4,evi_lag4,Residential greenness (EVI),,,EVI lag 4 (unitless)
+inversion_days1_lag5,inversion_days1_lag5,Inversion days1 lag5,,,Inversion days1 lag5
+inversion_days2_lag5,inversion_days2_lag5,Inversion days2 lag5,,,Inversion days2 lag5
+steep_slope_pct_25deg_1km_lag5,steep_slope_pct_25deg_1km_lag5,Steep slope pct 25deg 1km lag5,1 km,,Steep slope pct 25deg 1km lag5
+steep_slope_pct_25deg_500m_lag5,steep_slope_pct_25deg_500m_lag5,Steep slope pct 25deg 500m lag5,500 m,,Steep slope pct 25deg 500m lag5
+steep_slope_pct_25deg_lag5,steep_slope_pct_25deg_lag5,Steep slope pct 25deg lag5,,,Steep slope pct 25deg lag5
+steep_slope_pct_20deg_1km_lag5,steep_slope_pct_20deg_1km_lag5,Steep slope pct 20deg 1km lag5,1 km,,Steep slope pct 20deg 1km lag5
+steep_slope_pct_20deg_500m_lag5,steep_slope_pct_20deg_500m_lag5,Steep slope pct 20deg 500m lag5,500 m,,Steep slope pct 20deg 500m lag5
+steep_slope_pct_20deg_lag5,steep_slope_pct_20deg_lag5,Steep slope pct 20deg lag5,,,Steep slope pct 20deg lag5
+mean_slope_1km_lag5,mean_slope_1km_lag5,Mean slope 1km lag5,1 km,,Mean slope 1km lag5
+mean_slope_500m_lag5,mean_slope_500m_lag5,Mean slope 500m lag5,500 m,,Mean slope 500m lag5
+mean_slope_lag5,mean_slope_lag5,Mean slope lag5,,,Mean slope lag5
+O3_1KM_lag5,o3_1km_lag5,Ozone (O3),1 km,,O3 1KM lag 5 (ug/m3)
+EVI_1KM_lag5,evi_1km_lag5,Residential greenness (EVI),1 km,,EVI 1KM lag 5 (unitless)
+O3_500m_lag5,o3_500m_lag5,Ozone (O3),500 m,,O3 500m lag 5 (ug/m3)
+EVI_500m_lag5,evi_500m_lag5,Residential greenness (EVI),500 m,,EVI 500m lag 5 (unitless)
+O3_lag5,o3_lag5,Ozone (O3),,,O3 lag 5 (ug/m3)
+EVI_lag5,evi_lag5,Residential greenness (EVI),,,EVI lag 5 (unitless)
+delta_BAA_PhenoAge,change_stored_baa_2011_2015,Change in biological age acceleration from 2011 to 2015 (years),,,Change in biological age acceleration from 2011 to 2015 (years)
+social_participation_score,social_participation_score,Total frequency score across eight social activities,,,Total frequency score across eight social activities
+resilience_A,resilience_a,Standardised reversed frailty index A; higher indicates better health,,,Standardised reversed frailty index A; higher indicates better health
+resilience_B,resilience_b,Standardised reversed frailty index B; higher indicates better health,,,Standardised reversed frailty index B; higher indicates better health
+days_light_moderate,days_light_moderate,Days light moderate,,,Days light moderate
+sleep_quality,sleep_quality,Sleep quality: good if reported sleep is 6-8 hours,,,Sleep quality: good if reported sleep is 6-8 hours
+days_moderate_vigorous,days_moderate_vigorous,Days moderate vigorous,,,Days moderate vigorous
+days_any_pa,days_any_pa,Days any pa,,,Days any pa
+pa_light_moderate_weekly,pa_light_moderate_weekly,Physical activity light moderate weekly,,,Physical activity light moderate weekly
+pa_any_weekly,pa_any_weekly,Physical activity any weekly,,,Physical activity any weekly
+traj15_PM25_1KM,traj15_pm25_1km,Low/high longitudinal exposure-pattern group: PM25 1KM,1 km,,Low/high longitudinal exposure-pattern group: PM25 1KM
+traj15_PM10_1KM,traj15_pm10_1km,Low/high longitudinal exposure-pattern group: PM10 1KM,1 km,,Low/high longitudinal exposure-pattern group: PM10 1KM
+traj15_O3_1KM,traj15_o3_1km,Low/high longitudinal exposure-pattern group: O3 1KM,1 km,,Low/high longitudinal exposure-pattern group: O3 1KM
+traj15_NDVI_1KM,traj15_ndvi_1km,Low/high longitudinal exposure-pattern group: NDVI 1KM,1 km,,Low/high longitudinal exposure-pattern group: NDVI 1KM
+traj15_FVC_1KM,traj15_fvc_1km,Low/high longitudinal exposure-pattern group: FVC 1KM,1 km,,Low/high longitudinal exposure-pattern group: FVC 1KM
+traj15_EVI_1KM,traj15_evi_1km,Low/high longitudinal exposure-pattern group: EVI 1KM,1 km,,Low/high longitudinal exposure-pattern group: EVI 1KM
+traj15_PM25_500m,traj15_pm25_500m,Low/high longitudinal exposure-pattern group: PM25 500m,500 m,,Low/high longitudinal exposure-pattern group: PM25 500m
+traj15_PM10_500m,traj15_pm10_500m,Low/high longitudinal exposure-pattern group: PM10 500m,500 m,,Low/high longitudinal exposure-pattern group: PM10 500m
+traj15_O3_500m,traj15_o3_500m,Low/high longitudinal exposure-pattern group: O3 500m,500 m,,Low/high longitudinal exposure-pattern group: O3 500m
+traj15_NDVI_500m,traj15_ndvi_500m,Low/high longitudinal exposure-pattern group: NDVI 500m,500 m,,Low/high longitudinal exposure-pattern group: NDVI 500m
+traj15_FVC_500m,traj15_fvc_500m,Low/high longitudinal exposure-pattern group: FVC 500m,500 m,,Low/high longitudinal exposure-pattern group: FVC 500m
+traj15_EVI_500m,traj15_evi_500m,Low/high longitudinal exposure-pattern group: EVI 500m,500 m,,Low/high longitudinal exposure-pattern group: EVI 500m
+traj15_PM25,traj15_pm25,Low/high longitudinal exposure-pattern group: PM25,,,Low/high longitudinal exposure-pattern group: PM25
+traj15_PM10,traj15_pm10,Low/high longitudinal exposure-pattern group: PM10,,,Low/high longitudinal exposure-pattern group: PM10
+traj15_O3,traj15_o3,Low/high longitudinal exposure-pattern group: O3,,,Low/high longitudinal exposure-pattern group: O3
+traj15_NDVI,traj15_ndvi,Low/high longitudinal exposure-pattern group: NDVI,,,Low/high longitudinal exposure-pattern group: NDVI
+traj15_FVC,traj15_fvc,Low/high longitudinal exposure-pattern group: FVC,,,Low/high longitudinal exposure-pattern group: FVC
+traj15_EVI,traj15_evi,Low/high longitudinal exposure-pattern group: EVI,,,Low/high longitudinal exposure-pattern group: EVI
+BA_PhenoAge_base_2011,stored_bioage_baseline_2011,Baseline 2011 stored study-specific biological age (years),,,Baseline 2011 stored study-specific biological age (years)
+BAA_PhenoAge_base_2011,stored_baa_baseline_2011,Baseline 2011 stored study-specific biological age acceleration (years),,,Baseline 2011 stored study-specific biological age acceleration (years)
+EVI_mean2y,evi_mean2y,Residential greenness (EVI),,,EVI preceding 2y (unitless)
+EVI_mean3y,evi_mean3y,Residential greenness (EVI),,,EVI preceding 3y (unitless)
+EVI_mean4y,evi_mean4y,Residential greenness (EVI),,Mean of four preceding years,EVI preceding 4y (unitless)
+EVI_mean5y,evi_mean5y,Residential greenness (EVI),,,EVI preceding 5y (unitless)
+EVI_500m_mean2y,evi_500m_mean2y,Residential greenness (EVI),500 m,,EVI 500m preceding 2y (unitless)
+EVI_500m_mean3y,evi_500m_mean3y,Residential greenness (EVI),500 m,,EVI 500m preceding 3y (unitless)
+EVI_500m_mean4y,residential_evi_500m_mean4y,Residential greenness (EVI),500 m,Mean of four preceding years,EVI 500m preceding 4y (unitless)
+EVI_500m_mean5y,evi_500m_mean5y,Residential greenness (EVI),500 m,,EVI 500m preceding 5y (unitless)
+EVI_1KM_mean2y,evi_1km_mean2y,Residential greenness (EVI),1 km,,EVI 1KM preceding 2y (unitless)
+EVI_1KM_mean3y,evi_1km_mean3y,Residential greenness (EVI),1 km,,EVI 1KM preceding 3y (unitless)
+EVI_1KM_mean4y,residential_evi_1km_mean4y,Residential greenness (EVI),1 km,Mean of four preceding years,EVI 1KM preceding 4y (unitless)
+EVI_1KM_mean5y,evi_1km_mean5y,Residential greenness (EVI),1 km,,EVI 1KM preceding 5y (unitless)
+O3_mean2y,o3_mean2y,Ozone (O3),,,O3 preceding 2y (ug/m3)
+O3_mean3y,o3_mean3y,Ozone (O3),,,O3 preceding 3y (ug/m3)
+O3_mean4y,o3_mean4y,Ozone (O3),,Mean of four preceding years,O3 preceding 4y (ug/m3)
+O3_mean5y,o3_mean5y,Ozone (O3),,,O3 preceding 5y (ug/m3)
+O3_500m_mean2y,o3_500m_mean2y,Ozone (O3),500 m,,O3 500m preceding 2y (ug/m3)
+O3_500m_mean3y,o3_500m_mean3y,Ozone (O3),500 m,,O3 500m preceding 3y (ug/m3)
+O3_500m_mean4y,ozone_500m_mean4y,Ozone (O3),500 m,Mean of four preceding years,O3 500m preceding 4y (ug/m3)
+O3_500m_mean5y,o3_500m_mean5y,Ozone (O3),500 m,,O3 500m preceding 5y (ug/m3)
+O3_1KM_mean2y,o3_1km_mean2y,Ozone (O3),1 km,,O3 1KM preceding 2y (ug/m3)
+O3_1KM_mean3y,o3_1km_mean3y,Ozone (O3),1 km,,O3 1KM preceding 3y (ug/m3)
+O3_1KM_mean4y,ozone_1km_mean4y,Ozone (O3),1 km,Mean of four preceding years,O3 1KM preceding 4y (ug/m3)
+O3_1KM_mean5y,o3_1km_mean5y,Ozone (O3),1 km,,O3 1KM preceding 5y (ug/m3)
+O3_1KM_mean4y_cat,o3_1km_mean4y_cat,Ozone (O3),1 km,Mean of four preceding years,O3 1KM preceding 4y cat (ug/m3)
+EVI_1KM_mean4y_cat,evi_1km_mean4y_cat,Residential greenness (EVI),1 km,Mean of four preceding years,EVI 1KM preceding 4y cat (unitless)
+ba_acceleration_A,ba_acceleration_a,Positive biological age acceleration indicator,,,Positive biological age acceleration indicator
+id_num,participant_id_numeric,Numeric participant identifier (restricted),,,Numeric participant identifier (restricted)
+ipw_EVI_500m,ipw_evi_500m,Inverse probability weight: EVI 500m,500 m,,Inverse probability weight: EVI 500m
+ipw_EVI_1KM,ipw_evi_1km,Inverse probability weight: EVI 1KM,1 km,,Inverse probability weight: EVI 1KM
+ipw_O3_500m,ipw_o3_500m,Inverse probability weight: O3 500m,500 m,,Inverse probability weight: O3 500m
+ipw_O3_1KM,ipw_o3_1km,Inverse probability weight: O3 1KM,1 km,,Inverse probability weight: O3 1KM
+ipw_O3_1KM_mean4y_cat,ipw_o3_1km_mean4y_cat,Inverse probability weight: O3 1KM mean4y cat,1 km,Mean of four preceding years,Inverse probability weight: O3 1KM mean4y cat
+ipw_EVI_1KM_mean4y_cat,ipw_evi_1km_mean4y_cat,Inverse probability weight: EVI 1KM mean4y cat,1 km,Mean of four preceding years,Inverse probability weight: EVI 1KM mean4y cat
+joint_exp_1KM,joint_exp_1km,Four-category joint EVI and ozone exposure group: 1KM,1 km,,Four-category joint EVI and ozone exposure group: 1KM
+joint_exp_500m,joint_exp_500m,Four-category joint EVI and ozone exposure group: 500m,500 m,,Four-category joint EVI and ozone exposure group: 500m
+joint_exp_1KM_mean4y_base,joint_exp_1km_mean4y_base,Four-category joint EVI and ozone exposure group: 1KM mean4y base,1 km,Mean of four preceding years,Four-category joint EVI and ozone exposure group: 1KM mean4y base
+joint_exp_1KM_mean4y_current,joint_exp_1km_mean4y_current,Four-category joint EVI and ozone exposure group: 1KM mean4y current,1 km,Mean of four preceding years,Four-category joint EVI and ozone exposure group: 1KM mean4y current
+dataset_type,dataset_type,Dataset preparation type,,,Dataset preparation type
+imputation_date,imputation_date,Date recorded by upstream imputation,,,Date recorded by upstream imputation
+imputation_method,imputation_method,Upstream imputation method description,,,Upstream imputation method description
+ipw_joint_1KM,ipw_joint_1km,Inverse probability weight: joint 1KM,1 km,,Inverse probability weight: joint 1KM
+ipw_joint_500m,ipw_joint_500m,Inverse probability weight: joint 500m,500 m,,Inverse probability weight: joint 500m
+ipw_joint_1KM_mean4y_base,ipw_joint_1km_mean4y_base,Inverse probability weight: joint 1KM mean4y base,1 km,Mean of four preceding years,Inverse probability weight: joint 1KM mean4y base

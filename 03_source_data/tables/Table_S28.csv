@@ -1,0 +1,4 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Exposure,"MI β per IQR (95% CI), years",P,"FMI, %",Single-imputation β per IQR,"Relative difference, %"
+EVI,"-0.53 (-1.02, -0.04)",0.036,9.2,-0.590,+10.3
+O₃,"0.64 (0.17, 1.11)",0.008,14.8,0.674,-4.9

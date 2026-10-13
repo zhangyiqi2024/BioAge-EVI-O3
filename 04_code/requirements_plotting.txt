@@ -1,0 +1,6 @@
+# Optional supplementary renderer environment, tested with Python 3.11.
+# Do not combine these pins with a different locked Python environment.
+matplotlib==3.11.1
+pandas==2.3.3
+numpy==2.4.6
+Pillow>=10

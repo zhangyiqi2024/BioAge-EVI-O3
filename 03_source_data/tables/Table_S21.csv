@@ -1,0 +1,13 @@
+column_01,column_02,column_03,column_04,column_05
+Risk factor / Exposure,BAA diff. (years),95% CI,P,Sig.
+Environmental exposures,,,,
+High vs Low EVI,-1.318,"(-2.219, -0.417)",0.004,Yes
+High vs Low O3,+1.114,"(0.222, 2.006)",0.014,Yes
+Per IQR EVI (0.053),-0.590,"(-1.071, -0.110)",0.016,Yes
+Per IQR O3,+0.674,"(0.230, 1.119)",0.003,Yes
+Behavioural risk factors,,,,
+Current smoking,+0.849,"(-0.212, 1.911)",0.117,No
+Obesity (BMI >= 28),-1.040,"(-2.364, 0.284)",0.124,No
+Hypertension,-0.511,"(-1.451, 0.429)",0.287,No
+Low education,-0.123,"(-1.760, 1.514)",0.883,No
+Alcohol use,-0.089,"(-0.974, 0.795)",0.843,No

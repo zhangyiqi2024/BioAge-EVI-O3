@@ -1,11 +1,14 @@
-# R session artifacts
-.Rhistory
-.RData
-.Ruserdata
-Rplots.pdf
-# Word/Office locks
-~$*
-*.bak
-# OS
-Thumbs.db
-.DS_Store
+*.dta
+*.rds
+*.RData
+*.Rhistory
+**/DATA/restricted/
+**/DATA/analysis_ready/*
+!**/DATA/analysis_ready/README.md
+!**/DATA/analysis_ready/codebook.csv
+**/DATA/canonical/
+**/logs/
+**/output/
+__pycache__/
+*.pyc
+.env

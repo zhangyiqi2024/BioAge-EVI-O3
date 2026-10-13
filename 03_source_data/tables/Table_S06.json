@@ -1,0 +1,126 @@
+{
+  "table_id": "Table_S06",
+  "display_number": "S6",
+  "title": "Supplementary Table S6. Exposure-response thresholds for EVI and O₃",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. Threshold exposure is the first exposure level at which the 95% confidence interval of the predicted BAA difference relative to the minimum observed exposure no longer included zero. Thresholds were derived from quantile-based fitted curves and are descriptive features of the adjusted association, not validated change-points.",
+    "Abbreviations: BAA, biological age acceleration; CI, confidence interval; EVI, enhanced vegetation index; O₃, ozone."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "96ada144915abfdc9d36eb41f0eb2013ed8eb5441d3db1de946c725b59b828d5",
+  "physical_table_index": 7,
+  "body_element_index": 110,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 5,
+  "schema_version": 1,
+  "csv_file": "Table_S06.csv",
+  "csv_sha256": "e528aa92b333edbdf77eb1fd39c5d1166337f8d2481effe91a8b647509f55510",
+  "row_count_including_display_headers": 3,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/19_dose_response.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/threshold_results_EVI_O3.csv",
+      "author_archive_path": "03_source_data/threshold_results_EVI_O3.csv",
+      "sha256": "a99c3cbcabb2d232022f1eca5b59b8ebac02f8f75aab3dfc0bd8efddcb398376",
+      "row_count": 2,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

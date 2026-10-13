@@ -1,0 +1,12 @@
+column_01,column_02,column_03,column_04
+Characteristic,"Excluded (N = 2,471)","Included (N = 3,197)",Std. diff.
+"Age, years",62.04 (9.04),58.80 (8.55),0.367
+"Female, n (%)","1,311 (53.1)","1,696 (53.0)",0.000
+"Body mass index, kg/m²",23.86 (4.26),23.28 (3.61),0.147
+"Current smoking, n (%)",673 (27.4),"1,027 (32.1)",-0.102
+"Current alcohol use, n (%)",667 (27.0),"1,123 (35.1)",-0.175
+"Hypertension, n (%)","1,022 (41.5)",686 (21.5),0.438
+"Dyslipidaemia, n (%)",482 (19.9),184 (5.8),0.437
+"BAA (PhenoAge), years",not applicable (see note),0.18 (14.86),—
+"EVI (1-km buffer, 4-year average)",0.35 (0.04),0.35 (0.04),0.013
+"O3 (1-km, 4-year average), ug/m3",84.21 (7.04),84.14 (6.83),0.009

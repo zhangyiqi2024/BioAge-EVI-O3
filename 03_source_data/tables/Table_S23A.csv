@@ -1,0 +1,14 @@
+column_01,column_02,column_03,column_04
+Characteristic,"Retained (N = 3,197)","2011-only (N = 1,757)",Std. diff.
+"Age, years",58.80 (8.55),59.97 (10.00),0.125
+"Female, n (%)","1,696 (53.0)",901 (51.3),-0.035
+"Low education, n (%)","2,945 (92.1)","1,580 (89.9)",-0.078
+"Rural residence, n (%)","2,227 (69.7)","1,137 (64.7)",-0.106
+"Body mass index, kg/m²",23.27 (3.63),23.04 (3.75),-0.062
+"Current smoking, n (%)","1,023 (32.1)",578 (33.0),0.020
+"Current alcohol use, n (%)","1,120 (35.1)",606 (34.5),-0.011
+"Hypertension, n (%)",686 (21.7),389 (22.3),0.016
+"Dyslipidaemia, n (%)",184 (5.9),83 (4.8),-0.047
+"BAA (PhenoAge, recalibrated scale), years",0.18 (14.86),0.16 (15.34),-0.002
+"EVI (1-km buffer, 4-year average)",0.35 (0.04),0.35 (0.05),-0.131
+"O3 (1-km, 4-year average), ug/m3",84.09 (6.79),84.13 (7.02),0.006

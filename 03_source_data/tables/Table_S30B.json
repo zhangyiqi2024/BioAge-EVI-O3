@@ -1,0 +1,181 @@
+{
+  "table_id": "Table_S30B",
+  "display_number": "S30",
+  "title": "Supplementary Table S30. Participant-level evaluation of the LightGBM predictive model.",
+  "panel": "B",
+  "panel_title": "Panel b. Grouped exact TreeSHAP attributions on the held-out test participants.",
+  "notes_before": [],
+  "notes_after": [
+    "Note. Held-out evaluation of the LightGBM model using a participant-level train/validation/test split (early stopping on the validation partition). The model had no out-of-sample predictive skill; all machine-learning outputs, including scenario contrasts (Supplementary Tables S13, S14 and S17; Supplementary Fig. S5), are descriptive model outputs. Abbreviations: EVI, enhanced vegetation index; LightGBM, light gradient boosting machine; MAE, mean absolute error; O₃, ozone; RMSE, root mean squared error; SHAP, Shapley additive explanations."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "96ada144915abfdc9d36eb41f0eb2013ed8eb5441d3db1de946c725b59b828d5",
+  "physical_table_index": 34,
+  "body_element_index": 214,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 3,
+  "shared_notes": [],
+  "schema_version": 1,
+  "csv_file": "Table_S30B.csv",
+  "csv_sha256": "34b19aefc902637bfc3b0b9e0cf5f05e1aac9ac3d7b1d05aaa6076e7f779641d",
+  "row_count_including_display_headers": 8,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/49_lightgbm_nested.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/lightgbm_nested_shap_groups_v5.csv",
+      "author_archive_path": "03_source_data/lightgbm_nested_shap_groups_v5.csv",
+      "sha256": "50cc2d55ce183d9e3a7b6c6d30284e61251822d30bce4d2307f2d9299a4cfb33",
+      "row_count": 7,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

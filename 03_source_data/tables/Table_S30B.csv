@@ -1,0 +1,9 @@
+column_01,column_02,column_03
+Feature group,"Share of mean |SHAP|, %",Features
+Climate (PC1-PC5),48.5,"climate_pc1, climate_pc2, climate_pc3, climate_pc4, climate_pc5"
+Socioeconomic,14.4,"ln_hh_consumption_total, retirement, pension_insurance"
+Exposures (EVI + O3),13.5,"EVI_1KM_mean4y, O3_1KM_mean4y"
+Health status,10.7,"bmi, hypertension, dyslipidemia"
+"Demographics (age, sex)",10.1,"age, sex"
+"Lifestyle (smoking, alcohol)",2.0,"smoking_current, alcohol_current"
+Survey year,0.7,year

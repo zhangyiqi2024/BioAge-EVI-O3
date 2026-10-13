@@ -1,0 +1,6 @@
+column_01,column_02,column_03,column_04,column_05
+Exposure,Buffer,Nonlinearity  P-value,AIC,BIC
+EVI,1 km,0.5376,104689.7,104852.1
+EVI,500 m,0.5842,104006.1,104168.6
+O₃,1 km,0.3297,105552.7,105715.3
+O₃,500 m,0.3729,105554.4,105717.0

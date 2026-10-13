@@ -1,0 +1,140 @@
+{
+  "table_id": "Table_S26",
+  "display_number": "S26",
+  "title": "Supplementary Table S26. Precision analyses for the difference-in-differences interaction.",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. The difference-in-differences (DiD) contrast tests departure from additivity of mean BAA differences across the four joint exposure-pattern groups. The minimum detectable effect (MDE) at 80% power is 2.8 times the standard error. TOST: two one-sided tests against the stated equivalence margin; P > 0.05 indicates that equivalence within the margin could not be established. The MDE quantifies detection sensitivity at the stated power and does not define an exclusion bound. The confidence intervals remain compatible with departures from additivity in either direction. Abbreviations: BAA, biological age acceleration; CI, confidence interval; DiD, difference-in-differences; MDE, minimum detectable effect; SE, standard error; TOST, two one-sided tests."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "96ada144915abfdc9d36eb41f0eb2013ed8eb5441d3db1de946c725b59b828d5",
+  "physical_table_index": 29,
+  "body_element_index": 199,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 6,
+  "schema_version": 1,
+  "csv_file": "Table_S26.csv",
+  "csv_sha256": "6c23f7117158658804ee2202f9045476ff5976e45b22a05d4bbe66c21a719940",
+  "row_count_including_display_headers": 3,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/45_mde_tost.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/did_mde_tost_v5.csv",
+      "author_archive_path": "03_source_data/did_mde_tost_v5.csv",
+      "sha256": "cfca61157cb44bc3a081974bc6947a2066457a7e84f270177af2892713ac75b1",
+      "row_count": 2,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

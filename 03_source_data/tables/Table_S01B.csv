@@ -1,0 +1,6 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Model specification,EVI coefficient (95% CI; P),O₃ coefficient (95% CI; P),EVI signed weight,O₃ signed weight,Net interpretation
+Unadjusted,-0.440 (-0.779 to -0.100; P=0.011),0.362 (0.025 to 0.700; P=0.035),-54.8%,+45.2%,Opposite-direction associations
+Age- and sex-adjusted,-0.424 (-0.764 to -0.084; P=0.015),0.362 (0.024 to 0.699; P=0.036),-54.0%,+46.0%,Opposite-direction associations
+Multivariable-adjusted single-exposure,-0.460 (-0.814 to -0.105; P=0.011),0.468 (0.111 to 0.825; P=0.010),-49.5%,+50.5%,Near-symmetric opposite-direction associations
+Multivariable-adjusted dual-exposure,-0.531 (-0.888 to -0.173; P=0.004),0.539 (0.179 to 0.899; P=0.003),-49.6%,+50.4%,Near-symmetric opposite-direction associations

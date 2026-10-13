@@ -1,0 +1,15 @@
+"Metric","Value"
+"C-statistic (BAA_PhenoAge alone)",0.502
+"C-statistic (BAA_PhenoAge + age)",0.7458
+"C-statistic (age alone)",0.7457
+"C-statistic (fully adjusted)",0.7687
+"Calibration slope",2.1661
+"Calibration intercept",4.4194
+"Brier score",0.0569
+"Scaled Brier score",0.0146
+"N (baseline)",3284
+"N deaths",202
+"Death rate (%)",6.2
+"Prediction horizon (years)",7
+"Median survival — decedents (years)",4
+"Median follow-up — survivors (years)",7

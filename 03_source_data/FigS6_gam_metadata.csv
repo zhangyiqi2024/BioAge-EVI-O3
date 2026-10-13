@@ -1,0 +1,3 @@
+"exposure","n","baseline_year","prediction_age","prediction_female","smooth_basis","smooth_k","smooth_edf","estimation_method"
+"EVI",2785,2011,58.8,0,"Thin plate regression spline",10,6.54990735532823,"GCV"
+"O3",2785,2011,58.8,0,"Thin plate regression spline",10,5.86359866151491,"GCV"

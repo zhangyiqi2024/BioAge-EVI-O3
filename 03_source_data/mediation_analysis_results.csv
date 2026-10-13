@@ -1,0 +1,17 @@
+panel,effect,beta_se,ci95,p_value,pm_pct
+Panel A: Metabolic activity,a: X->M,0.054 (0.014),"[0.027, 0.080]",<0.001,
+Panel A: Metabolic activity,b: M->Y,-0.039 (0.014),"[-0.065, -0.012]",0.004,
+Panel A: Metabolic activity,Total effect (c),-0.031 (0.014),"[-0.059, -0.002]",0.033,
+Panel A: Metabolic activity,Direct effect (c'),-0.029 (0.014),"[-0.057, -0.001]",0.046,
+Panel A: Metabolic activity,Indirect effect (axb),-0.002 (0.001),"[-0.004, -0.000]",0.021,
+Panel A: Metabolic activity,Proportion mediated (%),,,,6.800
+Panel B: Ambient ozone exposure,a: X->M,-0.080 (0.010),"[-0.100, -0.060]",<0.001,
+Panel B: Ambient ozone exposure,b: M->Y,0.035 (0.015),"[0.005, 0.064]",0.021,
+Panel B: Ambient ozone exposure,Direct effect (c'),-0.030 (0.014),"[-0.058, -0.002]",0.036,
+Panel B: Ambient ozone exposure,Indirect effect (axb),-0.003 (0.001),"[-0.005, -0.000]",0.026,
+Panel B: Ambient ozone exposure,Proportion mediated (%),,,,9.032
+Panel C: Social participation,a: X->M,0.036 (0.014),"[0.008, 0.064]",0.012,
+Panel C: Social participation,b: M->Y,-0.019 (0.013),"[-0.045, 0.007]",0.143,
+Panel C: Social participation,Direct effect (c'),-0.030 (0.014),"[-0.058, -0.002]",0.037,
+Panel C: Social participation,Indirect effect (axb),-0.001 (0.001),"[-0.002, 0.000]",0.207,
+Panel C: Social participation,Proportion mediated (%),,,,2.254

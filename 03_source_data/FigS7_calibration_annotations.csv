@@ -1,0 +1,11 @@
+"metric","value"
+"prediction_horizon_years",7
+"n_observations",3284
+"n_deaths",202
+"c_baa_alone",0.501958527375338
+"c_baa_plus_age",0.74577609950611
+"c_age_alone",0.74573645914694
+"calibration_slope",2.16611327255084
+"calibration_intercept",4.41943666072744
+"brier_score",0.0568838269355008
+"scaled_brier_score",0.0146033091169577

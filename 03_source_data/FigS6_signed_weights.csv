@@ -1,0 +1,3 @@
+"exposure","coefficient","se","ci_lower","ci_upper","p_value","signed_weight_percent","n","model"
+"EVI",-0.530687814923369,0.182507217144949,-0.888401960527468,-0.17297366931927,0.00365362224706796,-49.5970711828605,6002,"Fully adjusted dual-exposure quantile g-computation; q=4"
+"O3",0.539310477852357,0.183647354389741,0.179361663248464,0.899259292456249,0.00333028625768557,50.4029288171395,6002,"Fully adjusted dual-exposure quantile g-computation; q=4"

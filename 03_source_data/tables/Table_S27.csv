@@ -1,0 +1,11 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Exclusion step,N obs,N participants,Mean EVI (s.d.),"Mean O₃ (s.d.), μg m⁻³","Rural residence, %"
+0 Original merged observations,"96,628","25,873",0.363 (0.048),87.9 (9.5),—
+1 Non-missing residence (city),"96,628","25,873",0.363 (0.048),87.9 (9.5),—
+2 Age >= 45 years,"94,240","25,391",0.363 (0.048),88.0 (9.5),—
+3 Biomarker waves (2011 and 2015),"37,049","22,936",0.354 (0.047),84.4 (7.1),—
+4 Complete core biomarkers,"21,630","15,542",0.356 (0.045),84.4 (7.1),—
+5 No prevalent major chronic disease at baseline,"17,502","13,033",0.356 (0.045),84.5 (7.1),—
+6 PhenoAge quality control,"13,112","10,739",0.356 (0.044),84.3 (7.2),—
+7 Observed at both biomarker waves,"6,568","3,284",0.359 (0.047),83.4 (6.8),69.6
+8 Analytical sample (ages 46-89),"6,472","3,281",0.359 (0.047),83.4 (6.8),69.6

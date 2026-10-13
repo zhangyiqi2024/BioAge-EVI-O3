@@ -1,0 +1,4 @@
+column_01,column_02,column_03,column_04,column_05
+Exposure,Exposure at CI crossing,BAA difference at CI crossing,Lower 95% CI,Upper 95% CI
+EVI_1 km_mean4y,0.43211,-1.56907,-3.09463,-0.04351
+O₃_1 km_mean4y,81.79585,1.949869,0.007094,3.892645

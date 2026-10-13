@@ -1,0 +1,17 @@
+column_01,column_02,column_03,column_04,column_05,column_06,column_07
+Exposure score,Model type,Buffer,Adjustment,Coefficient (SE),P value,95% CI
+EVI score,Single-score,1 km,Unadjusted,-0.404 (0.185),0.029,"[-0.766, -0.042]"
+EVI score,Single-score,1 km,Age and sex,-0.387 (0.185),0.037,"[-0.750, -0.023]"
+EVI score,Single-score,1 km,Multivariable,-0.402 (0.193),0.037,"[-0.779, -0.024]"
+EVI score,Dual-scores,1 km,Unadjusted,-0.429 (0.185),0.020,"[-0.792, -0.067]"
+EVI score,Dual-scores,1 km,Age and sex,-0.412 (0.186),0.027,"[-0.776, -0.048]"
+EVI score,Dual-scores,1 km,Multivariable,-0.465 (0.194),0.016,"[-0.845, -0.085]"
+O₃ score,Single-score,1 km,Unadjusted,-0.408 (0.195),0.037,"[-0.791, -0.025]"
+O₃ score,Single-score,1 km,Age and sex,-0.403 (0.195),0.039,"[-0.786, -0.020]"
+O₃ score,Single-score,1 km,Multivariable,-0.536 (0.206),0.009,"[-0.940, -0.132]"
+O₃ score,Dual-scores,1 km,Unadjusted,-0.435 (0.196),0.026,"[-0.818, -0.052]"
+O₃ score,Dual-scores,1 km,Age and sex,-0.430 (0.196),0.028,"[-0.814, -0.047]"
+O₃ score,Dual-scores,1 km,Multivariable,-0.593 (0.207),0.004,"[-0.999, -0.186]"
+Mixed score,Single-score,1 km,Unadjusted,-0.432 (0.138),0.002,"[-0.703, -0.161]"
+Mixed score,Single-score,1 km,Age and sex,-0.420 (0.139),0.002,"[-0.692, -0.149]"
+Mixed score,Single-score,1 km,Multivariable,-0.524 (0.149),<0.001,"[-0.817, -0.231]"

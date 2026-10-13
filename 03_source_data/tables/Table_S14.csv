@@ -1,0 +1,12 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Age group,Exposure pattern,N,Median,Q1,Q3
+≤60 years,Both exposures adverse,"2,631",0.567,0.095,1.174
+≤60 years,Only O₃ adverse,525,0.187,0.000,0.373
+61-70 years,Both exposures adverse,"1,544",0.646,0.223,1.222
+61-70 years,Only O₃ adverse,344,0.253,0.028,0.512
+71-80 years,Both exposures adverse,631,0.612,0.197,1.251
+71-80 years,Only O₃ adverse,124,0.114,0.000,0.333
+>80 years,Both exposures adverse,92,0.560,0.139,1.024
+>80 years,Only O₃ adverse,23,0.054,0.000,0.324
+All participants,Both exposures adverse,"4,898",0.597,0.143,1.200
+All participants,Only O₃ adverse,"1,016",0.215,0.028,0.384

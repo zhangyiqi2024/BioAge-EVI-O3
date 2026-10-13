@@ -1,0 +1,20 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Classification,Buffer,Contrast,Beta,95% CI,P
+Original K-means,1 km,High-EVI/High-O3 vs Ref,-0.197,"(-1.471, 1.078)",0.762
+,1 km,Low-EVI/High-O3 vs Ref,+0.843,"(-0.306, 1.992)",0.150
+,1 km,High-EVI/Low-O3 vs Ref,-1.549,"(-2.764, -0.334)",0.012
+,500 m,High-EVI/High-O3 vs Ref,-0.026,"(-1.739, 1.686)",0.976
+,500 m,Low-EVI/High-O3 vs Ref,+0.811,"(-0.182, 1.804)",0.109
+,500 m,High-EVI/Low-O3 vs Ref,-1.385,"(-2.744, -0.027)",0.046
+Median split,1 km,High-EVI/High-O3 vs Ref,+0.475,"(-0.570, 1.520)",0.373
+,1 km,Low-EVI/High-O3 vs Ref,+0.634,"(-0.568, 1.835)",0.301
+,1 km,High-EVI/Low-O3 vs Ref,-0.650,"(-1.830, 0.531)",0.281
+,500 m,High-EVI/High-O3 vs Ref,+0.568,"(-0.463, 1.598)",0.280
+,500 m,Low-EVI/High-O3 vs Ref,-0.019,"(-1.170, 1.133)",0.975
+,500 m,High-EVI/Low-O3 vs Ref,-0.893,"(-2.051, 0.266)",0.131
+Tertile (extreme),1 km,High-EVI/High-O3 vs Middle,-0.393,"(-2.529, 1.742)",0.718
+,1 km,Low-EVI/High-O3 vs Middle,+0.904,"(-1.093, 2.900)",0.375
+,500 m,High-EVI/High-O3 vs Middle,+1.299,"(-0.885, 3.483)",0.244
+,500 m,Low-EVI/High-O3 vs Middle,+2.778,"(0.435, 5.122)",0.020
+Continuous int.,1 km,EVI x O3 product term,+0.227,"(-1.644, 2.097)",0.812
+,500 m,EVI x O3 product term,+0.710,"(-1.241, 2.661)",0.476

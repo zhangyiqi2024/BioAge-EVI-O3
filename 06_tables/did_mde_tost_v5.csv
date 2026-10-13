@@ -1,0 +1,3 @@
+"scale","estimate","se","lci","uci","mde_80pct","bound","tost_p","equivalent_at_bound","interpretation"
+"1KM",0.509234660328892,0.983953441897942,-1.41931408579107,2.43778340644886,2.75506963731424,1,0.308971112624773,FALSE,"Minimum detectable interaction is 2.76 years at 80% power; this is not an exclusion bound; equivalence within +/- 1.0 year cannot be established (TOST P=0.3090)"
+"500m",0.348454937989326,1.23958299149801,-2.08112772534677,2.77803760132543,3.47083237619443,1,0.29957740434342,FALSE,"Minimum detectable interaction is 3.47 years at 80% power; this is not an exclusion bound; equivalence within +/- 1.0 year cannot be established (TOST P=0.2996)"

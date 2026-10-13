@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Public redraw of formal statistical geometry from aggregate CSVs.",
+  "export_utility": "04_code/PYTHON/export_public_figure_sources.py",
+  "data_scope": "No participant identifiers, individual observations, individual predictions or individual SHAP values are included in these exports.",
+  "analysis_input_sha256": "c10655c00307c63a06219536fe350c9a7597cafdbba1a62a17d1c510af11b805",
+  "mortality_input_sha256": "81e3c735e896f2ccd0292bce16e28c1b278a220eb41fedbe0365c93bd57d53c3",
+  "figures": {
+    "S6Formal": {
+      "script": "generate_nature_figures.R",
+      "script_sha256": "bdbfb7767d9df70c48a1d9ecbac83221c7ca6fa19a44b8afe572bab87b123e80",
+      "executed_script_sha256": "424b6c141cd9ba6ac218d61644e0368bff3f65bf9e4aeb74b675acaf06ef56ed",
+      "process_returncode": 3221225477,
+      "export_complete": true,
+      "status": "coordinates_exported_and_checked_but_process_exit_failed",
+      "render_pixels_identical": true,
+      "source_csv_sha256": "9f7f053de99ea551c6eb3396f4925cfb4a488b5cfda1d911dd343ffbbad4f9eb",
+      "model_specification": "Baseline 2011, age 46-89, single-exposure mgcv GAM adjusted for age and female indicator; prediction at age 58.8 and female=0.",
+      "exports": [
+        {
+          "file": "FigS6_archived_display_weights.csv",
+          "rows": 2,
+          "sha256": "c413be82dea964f42b4dc38dec1ddc54c2baa6c1d9c4eff6306afd7b108621a0"
+        },
+        {
+          "file": "FigS6_gam_curve_coordinates.csv",
+          "rows": 200,
+          "sha256": "6fd588eeca984c7be0810bc1a28b9e8b09776623f9cebf46f6a5bdf8d184eb90"
+        },
+        {
+          "file": "FigS6_gam_metadata.csv",
+          "rows": 2,
+          "sha256": "31a2b6c0ce4e506635f3d51dbb2de7f6bfc8f63d76959742ebe164a8b42d010c"
+        }
+      ]
+    },
+    "S6Weights": {
+      "script": "15_qgcomp_final.R",
+      "script_sha256": "624085396b0d8c83e2186f4fe64fb76a1c0f717787e77d65dc56765f20bc3920",
+      "executed_script_sha256": "624085396b0d8c83e2186f4fe64fb76a1c0f717787e77d65dc56765f20bc3920",
+      "process_returncode": 3221225477,
+      "export_complete": true,
+      "status": "coordinates_exported_and_checked_but_process_exit_failed",
+      "formal_weight_percentages_match": true,
+      "archived_qgcomp_coefficients_match": true,
+      "exports": [
+        {
+          "file": "FigS6_qgcomp_metadata.csv",
+          "rows": 1,
+          "sha256": "7df4ba078e9f3c56d33e316ed7f1f0230ac20a15a89df4a7a9ccf62abce1ae2e"
+        },
+        {
+          "file": "FigS6_signed_weights.csv",
+          "rows": 2,
+          "sha256": "cfa050f645227b96cda23d9c90781910730e2e0337657ae49197485a8f653852"
+        }
+      ]
+    },
+    "S7": {
+      "script": "38_phenoage_validation.R",
+      "script_sha256": "d1e0d6919549007459479c3148e368472631d2ec7979fcb633a4c5e87f725279",
+      "process_returncode": 3221225477,
+      "export_complete": true,
+      "status": "coordinates_exported_and_checked_but_process_exit_failed",
+      "render_byte_identical": true,
+      "render_sha256": "ee86d9acfa41495e2f32ed1d28b72037b398fd20b83a9ab5d8fe1569842aebc2",
+      "formal_render_sha256": "ee86d9acfa41495e2f32ed1d28b72037b398fd20b83a9ab5d8fe1569842aebc2",
+      "metrics_match_archived_rounding": true,
+      "exports": [
+        {
+          "file": "FigS7_calibration_annotations.csv",
+          "rows": 10,
+          "sha256": "33f22e82dabe31d15abf3703f16737132f4eb6a623171761c4e8b646e95f96ac"
+        },
+        {
+          "file": "FigS7_calibration_deciles.csv",
+          "rows": 10,
+          "sha256": "4a16a037ffb1eb0b1e428698c085a64e631fc1d778ae046c9c29c98e24ce8f05"
+        },
+        {
+          "file": "FigS7_calibration_smoother.csv",
+          "rows": 80,
+          "sha256": "0c54d0f0892deee166e3379590c9d2af6592c47bb0b00afc3e5d054d6b5f9102"
+        }
+      ]
+    },
+    "Raincloud": {
+      "script": "71_figure1_raincloud_final.R",
+      "script_sha256": "d1475f7c458e8e5b77b95e5b20045017164701b406b913f1a76391e6e0fa0076",
+      "executed_script_sha256": "6ae8f7d4fba9d44562409f637878bf7360cf9276b576187152791c193611dd8e",
+      "process_returncode": 3221225477,
+      "export_complete": true,
+      "status": "coordinates_exported_and_checked_but_process_exit_failed",
+      "render_byte_identical": true,
+      "render_sha256": "fe5b8707db017b6076db560e5a302694ce4b6bb1f565435803cba6bcda2b298d",
+      "formal_render_sha256": "fe5b8707db017b6076db560e5a302694ce4b6bb1f565435803cba6bcda2b298d",
+      "group_summaries_match_archived_rounding": true,
+      "exports": [
+        {
+          "file": "Figure2a_raincloud_annotations.csv",
+          "rows": 8,
+          "sha256": "1a0eb5d713622f76c037bdb3475402eb3016748b0e8658fdc870d3bb0f4bb0d0"
+        },
+        {
+          "file": "Figure2a_raincloud_boxplot_statistics.csv",
+          "rows": 8,
+          "sha256": "97fc25ce9f6dde986dfe78b84a224e79dbf289220cda472088dd619a3d7cfca2"
+        },
+        {
+          "file": "Figure2a_raincloud_polygons.csv",
+          "rows": 8192,
+          "sha256": "411fd16189d377819ca8fe07068f4b14d0cc2bf85a43dec2c98905704eee1382"
+        },
+        {
+          "file": "Figure2a_rain_histograms.csv",
+          "rows": 440,
+          "sha256": "7ca6a0760ade3da214228728e448e1f3a4af54a1c08eb0f486027dbe31ff4236"
+        }
+      ]
+    },
+    "Figure4": {
+      "status": "verified_aggregate_layers_exported",
+      "curve_endpoint_quantiles_match": true,
+      "n_observations": 5914,
+      "contour_grid_rows": 4900,
+      "masked_contour_cells": 490,
+      "contour_sha256": "c100c922547c6b3014f20a568ca97f6c9f6524ba8f2c251355b1a18d48817c85",
+      "display_change": "Individual rugs and sampled points replaced by binned counts; counts 1-4 suppressed.",
+      "exports": [
+        {
+          "file": "Figure4_plot_metadata.csv",
+          "rows": 2,
+          "sha256": "7332c4084e339974545087fc6fdf906baacdf28b3370be28a91151e8f4f21292"
+        },
+        {
+          "file": "Figure4_exposure_histograms.csv",
+          "rows": 80,
+          "sha256": "e134c8504cd3709357e756f8c4a6c1ebdc4ad364a4965a50e74ba2d2b4d07413"
+        },
+        {
+          "file": "Figure4_joint_density_bins.csv",
+          "rows": 400,
+          "sha256": "9185cc11654b24aca9b3ebe7b2d0389fd64d0bbd8be055b331a4a96dcf4b77f0"
+        }
+      ]
+    }
+  },
+  "important_notes": [
+    "S6 GAM curves use 2785 baseline observations, age/sex adjustment and predictions for a male aged 58.8 years. They are exploratory, not the primary multivariable models.",
+    "S6 qgcomp weights use 6002 observations aged 45-94; the original exploratory model includes 88 observations outside the primary age range. Full-precision coefficients independently reproduce the displayed -49.6%/+50.4% weights.",
+    "S7 observed calibration proportions are crude death-indicator means, not censoring-adjusted Kaplan-Meier risk estimates.",
+    "Raincloud individual dots and Figure 4 rugs/scatter are replaced with aggregate binned counts. Counts 1-4 are suppressed. Statistical curves, boxplots, means and confidence intervals preserve formal source geometry.",
+    "Author-side R processes produced EXPORT_COMPLETE and validated exports, then returned Windows 3221225477 (0xc0000005). This is not a clean R process exit. Public redraw reads CSVs and does not invoke these R fits."
+  ]
+}
