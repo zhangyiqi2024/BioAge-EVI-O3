@@ -1,6 +1,6 @@
 # Python tools 🐍
 
-For reviewer reconstruction of all 12 figures and 35 displayed table panels:
+For reviewer reconstruction of all 13 figures and 35 displayed table panels:
 
 ```shell
 python 04_code/run_pipeline.py --mode public
@@ -21,6 +21,8 @@ From the package root:
 python 04_code/PYTHON/prepare_analysis_data.py --input authorised_input.dta --output 04_code/DATA/analysis_ready/analysis_dataset.dta --audit audit/data_conversion.json
 python 04_code/PYTHON/export_canonical_data.py
 python 04_code/PYTHON/compose_main_figures.py --root . --out audit/main_figures
+python 04_code/PYTHON/render_primary_figure.py --root . --out audit/main_figures
+python 04_code/PYTHON/render_joint_sensitivity.py --root . --out audit/main_figures --si-out audit/supplementary_figures
 python 04_code/PYTHON/build_github_release.py
 ```
 
@@ -46,3 +48,14 @@ python 04_code/PYTHON/verify_manuscript_si.py --root . --manuscript path/to/manu
 Historical document-editing utilities in the local author workspace are not
 part of the public analysis allowlist. On the audit workstation all temporary
 and verification outputs were directed to the task-specific temporary folder.
+
+## 📊 Current figure modules
+
+`render_primary_figure.py` creates the four-panel Figure 2 from exposure-bin
+counts, four unweighted dual-model estimates, and descriptive density/box/mean
+summaries without mean confidence intervals. `render_joint_sensitivity.py`
+creates Figure 3 from adjusted means and all 18 continuous-model estimates,
+and Figure S9 from the complete contrasts and DiD precision. Their outputs
+include editable PDF/SVG and 600-dpi PNG/TIFF. No model is refitted or selected
+by P value; the inference threshold remains alpha = 0.05.
+

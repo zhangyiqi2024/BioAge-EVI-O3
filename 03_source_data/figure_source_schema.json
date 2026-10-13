@@ -429,6 +429,14 @@
         "missing": 0,
         "description": "Vertical BAA-year coordinate of the annotation; shifted away from zero where specified by the original source."
       }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure2",
+        "panels": "c-d",
+        "renderer": "04_code/PYTHON/render_primary_figure.py",
+        "output_stem": "Figure2_primary_associations"
+      }
     ]
   },
   {
@@ -487,6 +495,14 @@
         "missing": 0,
         "description": "Residential buffer: 1KM or 500m."
       }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure2",
+        "panels": "c-d",
+        "renderer": "04_code/PYTHON/render_primary_figure.py",
+        "output_stem": "Figure2_primary_associations"
+      }
     ]
   },
   {
@@ -520,6 +536,14 @@
         "dtype": "str",
         "missing": 0,
         "description": "Residential buffer: 1KM or 500m."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure2",
+        "panels": "c-d",
+        "renderer": "04_code/PYTHON/render_primary_figure.py",
+        "output_stem": "Figure2_primary_associations"
       }
     ]
   },
@@ -649,6 +673,14 @@
         "missing": 0,
         "description": "Algorithm used to compute the exposure quantiles."
       }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure2",
+        "panels": "a",
+        "renderer": "04_code/PYTHON/render_primary_figure.py",
+        "output_stem": "Figure2_primary_associations"
+      }
     ]
   },
   {
@@ -700,6 +732,14 @@
         "dtype": "bool",
         "missing": 0,
         "description": "True indicates a count between 1 and 4; its numeric value is intentionally missing."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure2",
+        "panels": "a",
+        "renderer": "04_code/PYTHON/render_primary_figure.py",
+        "output_stem": "Figure2_primary_associations"
       }
     ]
   },
@@ -758,6 +798,590 @@
         "dtype": "bool",
         "missing": 0,
         "description": "True indicates a count between 1 and 4; its numeric value is intentionally missing."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure2",
+        "panels": "a",
+        "renderer": "04_code/PYTHON/render_primary_figure.py",
+        "output_stem": "Figure2_primary_associations"
+      }
+    ]
+  },
+  {
+    "figure": "Figure2",
+    "file": "Figure2_continuous_forest.csv",
+    "rows": 8,
+    "description": "Existing aggregate model results used by the current composition; source values are unchanged.",
+    "sha256": "80844542e8ab9528ccc654b729cab5d898963e65e2daee086b9aaf4fddbad5b0",
+    "record_type": "aggregate_model_results",
+    "columns": [
+      {
+        "name": "scale",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Residential buffer: 1KM or 500m."
+      },
+      {
+        "name": "weight_spec",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Weighting specification: unweighted or inverse-probability weighted (ipw)."
+      },
+      {
+        "name": "exposure",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Exposure: EVI (unitless) or O3 (micrograms per cubic metre)."
+      },
+      {
+        "name": "model",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Single-exposure or mutually adjusted dual-exposure model."
+      },
+      {
+        "name": "beta_unit",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "BAA difference in years per one native exposure unit."
+      },
+      {
+        "name": "se",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Standard error in the same units as the corresponding estimate."
+      },
+      {
+        "name": "lci_unit",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit per one native exposure unit."
+      },
+      {
+        "name": "uci_unit",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit per one native exposure unit."
+      },
+      {
+        "name": "p",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Nominal two-sided P value from the source analysis."
+      },
+      {
+        "name": "beta_sd",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "BAA difference in years per one exposure standard deviation."
+      },
+      {
+        "name": "lci_sd",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit per one exposure standard deviation."
+      },
+      {
+        "name": "uci_sd",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit per one exposure standard deviation."
+      },
+      {
+        "name": "beta_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "BAA difference in years per buffer-specific exposure interquartile range."
+      },
+      {
+        "name": "lci_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit per buffer-specific exposure interquartile range."
+      },
+      {
+        "name": "uci_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit per buffer-specific exposure interquartile range."
+      },
+      {
+        "name": "exposure_sd",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Exposure standard deviation in native exposure units."
+      },
+      {
+        "name": "exposure_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Exposure interquartile range in native exposure units."
+      },
+      {
+        "name": "n",
+        "missing": 0,
+        "dtype": "int64",
+        "description": "Number of observations in the model frame, not unique participants."
+      },
+      {
+        "name": "n_participants",
+        "missing": 0,
+        "dtype": "int64",
+        "description": "Number of unique participants in the model frame."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure2",
+        "panels": "b",
+        "renderer": "04_code/PYTHON/render_primary_figure.py",
+        "output_stem": "Figure2_primary_associations"
+      }
+    ]
+  },
+  {
+    "figure": "Figure3",
+    "file": "Figure3a_adjusted_means.csv",
+    "rows": 8,
+    "description": "Existing aggregate model results used by the current composition; source values are unchanged.",
+    "sha256": "a4fb49879c445ef83785070f79320482aa66fce95e7decf6a050156501f9c89d",
+    "record_type": "aggregate_model_results",
+    "columns": [
+      {
+        "name": "scale",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Residential buffer: 1KM or 500m."
+      },
+      {
+        "name": "group_order",
+        "missing": 0,
+        "dtype": "int64",
+        "description": "Archived order of the four joint exposure groups."
+      },
+      {
+        "name": "exposure_group",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Joint EVI/O3 exposure-pattern group label."
+      },
+      {
+        "name": "adjusted_mean",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Adjusted marginal mean BAA in years."
+      },
+      {
+        "name": "se",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Standard error in the same units as the corresponding estimate."
+      },
+      {
+        "name": "lci",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit in BAA years."
+      },
+      {
+        "name": "uci",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit in BAA years."
+      },
+      {
+        "name": "n",
+        "missing": 0,
+        "dtype": "int64",
+        "description": "Number of observations in the model frame, not unique participants."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure3",
+        "panels": "a-b",
+        "renderer": "04_code/PYTHON/render_joint_sensitivity.py",
+        "output_stem": "Figure3_joint_patterns"
+      }
+    ]
+  },
+  {
+    "figure": "Figure3",
+    "file": "primary_continuous_models_v5.csv",
+    "rows": 16,
+    "description": "Existing aggregate model results used by the current composition; source values are unchanged.",
+    "sha256": "b496e02e6fe6fe39a5d9b431a17ff8d9c40e5f98440acb7ba7a87b2f1137ae3f",
+    "record_type": "aggregate_model_results",
+    "columns": [
+      {
+        "name": "scale",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Residential buffer: 1KM or 500m."
+      },
+      {
+        "name": "weight_spec",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Weighting specification: unweighted or inverse-probability weighted (ipw)."
+      },
+      {
+        "name": "exposure",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Exposure: EVI (unitless) or O3 (micrograms per cubic metre)."
+      },
+      {
+        "name": "model",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Single-exposure or mutually adjusted dual-exposure model."
+      },
+      {
+        "name": "beta_unit",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "BAA difference in years per one native exposure unit."
+      },
+      {
+        "name": "se",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Standard error in the same units as the corresponding estimate."
+      },
+      {
+        "name": "lci_unit",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit per one native exposure unit."
+      },
+      {
+        "name": "uci_unit",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit per one native exposure unit."
+      },
+      {
+        "name": "p",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Nominal two-sided P value from the source analysis."
+      },
+      {
+        "name": "beta_sd",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "BAA difference in years per one exposure standard deviation."
+      },
+      {
+        "name": "lci_sd",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit per one exposure standard deviation."
+      },
+      {
+        "name": "uci_sd",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit per one exposure standard deviation."
+      },
+      {
+        "name": "beta_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "BAA difference in years per buffer-specific exposure interquartile range."
+      },
+      {
+        "name": "lci_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit per buffer-specific exposure interquartile range."
+      },
+      {
+        "name": "uci_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit per buffer-specific exposure interquartile range."
+      },
+      {
+        "name": "exposure_sd",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Exposure standard deviation in native exposure units."
+      },
+      {
+        "name": "exposure_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Exposure interquartile range in native exposure units."
+      },
+      {
+        "name": "n",
+        "missing": 0,
+        "dtype": "int64",
+        "description": "Number of observations in the model frame, not unique participants."
+      },
+      {
+        "name": "n_participants",
+        "missing": 0,
+        "dtype": "int64",
+        "description": "Number of unique participants in the model frame."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure3",
+        "panels": "c-d",
+        "renderer": "04_code/PYTHON/render_joint_sensitivity.py",
+        "output_stem": "Figure3_joint_patterns"
+      }
+    ]
+  },
+  {
+    "figure": "Figure3",
+    "file": "mi_sensitivity_v5.csv",
+    "rows": 2,
+    "description": "Existing aggregate model results used by the current composition; source values are unchanged.",
+    "sha256": "f851e922cc3a72b3369fae79406814164c6f6b3cf301ec93f9ae5c3cdbc45016",
+    "record_type": "aggregate_model_results",
+    "columns": [
+      {
+        "name": "exposure",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Exposure: EVI (unitless) or O3 (micrograms per cubic metre)."
+      },
+      {
+        "name": "mi_beta",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Rubin-pooled MI BAA difference per one native exposure unit."
+      },
+      {
+        "name": "mi_se",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Rubin-pooled MI standard error per one native exposure unit."
+      },
+      {
+        "name": "mi_lci",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Archived normal-approximation lower 95% confidence limit in native exposure units."
+      },
+      {
+        "name": "mi_uci",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Archived normal-approximation upper 95% confidence limit in native exposure units."
+      },
+      {
+        "name": "mi_p",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Nominal pooled MI P value, retained unchanged."
+      },
+      {
+        "name": "mi_beta_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Rubin-pooled MI BAA difference per archived 1-km exposure IQR."
+      },
+      {
+        "name": "single_beta",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Complete-case lme4 comparator estimate on the shipped dataset per native exposure unit; model-based variance."
+      },
+      {
+        "name": "single_se",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Model-based comparator standard error per native exposure unit."
+      },
+      {
+        "name": "single_beta_iqr",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Comparator estimate per archived 1-km exposure IQR."
+      },
+      {
+        "name": "fmi",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Fraction of missing information returned by mice pooling."
+      },
+      {
+        "name": "riv",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Historical column name: stores mice pooled lambda (proportion of total variance due to missingness), not the relative increase in variance."
+      },
+      {
+        "name": "rel_diff_pct",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "100 times (mi_beta - single_beta) divided by abs(single_beta)."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "Figure3",
+        "panels": "c-d",
+        "renderer": "04_code/PYTHON/render_joint_sensitivity.py",
+        "output_stem": "Figure3_joint_patterns"
+      }
+    ]
+  },
+  {
+    "figure": "FigureS9",
+    "file": "Figure3b_contrasts.csv",
+    "rows": 12,
+    "description": "Existing aggregate model results used by the current composition; source values are unchanged.",
+    "sha256": "4b33450a10d99b008f80cd262f1854691b637053048ec692776c3ec874c93af4",
+    "record_type": "aggregate_model_results",
+    "columns": [
+      {
+        "name": "scale",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Residential buffer: 1KM or 500m."
+      },
+      {
+        "name": "contrast",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Exact group or difference-in-differences contrast definition."
+      },
+      {
+        "name": "estimate",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Adjusted contrast estimate in BAA years."
+      },
+      {
+        "name": "se",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Standard error in the same units as the corresponding estimate."
+      },
+      {
+        "name": "lci",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit in BAA years."
+      },
+      {
+        "name": "uci",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit in BAA years."
+      },
+      {
+        "name": "p",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Nominal two-sided P value from the source analysis."
+      },
+      {
+        "name": "n",
+        "missing": 0,
+        "dtype": "int64",
+        "description": "Number of observations in the model frame, not unique participants."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "FigureS9",
+        "panels": "a",
+        "renderer": "04_code/PYTHON/render_joint_sensitivity.py",
+        "output_stem": "FigS9_joint_contrasts_precision"
+      },
+      {
+        "figure": "FigureS9",
+        "panels": "b",
+        "renderer": "04_code/PYTHON/render_joint_sensitivity.py",
+        "output_stem": "FigS9_joint_contrasts_precision"
+      }
+    ]
+  },
+  {
+    "figure": "FigureS9",
+    "file": "Figure3b_DiD_precision.csv",
+    "rows": 2,
+    "description": "Existing aggregate model results used by the current composition; source values are unchanged.",
+    "sha256": "cfca61157cb44bc3a081974bc6947a2066457a7e84f270177af2892713ac75b1",
+    "record_type": "aggregate_model_results",
+    "columns": [
+      {
+        "name": "scale",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Residential buffer: 1KM or 500m."
+      },
+      {
+        "name": "estimate",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Adjusted contrast estimate in BAA years."
+      },
+      {
+        "name": "se",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Standard error in the same units as the corresponding estimate."
+      },
+      {
+        "name": "lci",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Lower 95% confidence limit in BAA years."
+      },
+      {
+        "name": "uci",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Upper 95% confidence limit in BAA years."
+      },
+      {
+        "name": "mde_80pct",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Approximate minimum detectable interaction at 80% power, calculated as 2.8 times SE; not an exclusion bound."
+      },
+      {
+        "name": "bound",
+        "missing": 0,
+        "dtype": "int64",
+        "description": "Absolute equivalence bound in BAA years."
+      },
+      {
+        "name": "tost_p",
+        "missing": 0,
+        "dtype": "float64",
+        "description": "Larger P value from the two one-sided equivalence tests."
+      },
+      {
+        "name": "equivalent_at_bound",
+        "missing": 0,
+        "dtype": "bool",
+        "description": "Whether both one-sided equivalence tests meet alpha=0.05."
+      },
+      {
+        "name": "interpretation",
+        "missing": 0,
+        "dtype": "str",
+        "description": "Source interpretation of minimum detectable interaction and equivalence."
+      }
+    ],
+    "current_composition": [
+      {
+        "figure": "FigureS9",
+        "panels": "b",
+        "renderer": "04_code/PYTHON/render_joint_sensitivity.py",
+        "output_stem": "FigS9_joint_contrasts_precision"
       }
     ]
   }

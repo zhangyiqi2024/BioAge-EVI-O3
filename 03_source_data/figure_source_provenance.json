@@ -151,5 +151,104 @@
     "S7 observed calibration proportions are crude death-indicator means, not censoring-adjusted Kaplan-Meier risk estimates.",
     "Raincloud individual dots and Figure 4 rugs/scatter are replaced with aggregate binned counts. Counts 1-4 are suppressed. Statistical curves, boxplots, means and confidence intervals preserve formal source geometry.",
     "Author-side R processes produced EXPORT_COMPLETE and validated exports, then returned Windows 3221225477 (0xc0000005). This is not a clean R process exit. Public redraw reads CSVs and does not invoke these R fits."
-  ]
+  ],
+  "current_composition": {
+    "Figure2": {
+      "renderer": "04_code/PYTHON/render_primary_figure.py",
+      "output_stem": "Figure2_primary_associations",
+      "panels": {
+        "a": {
+          "source_files": [
+            "Figure4_joint_density_bins.csv",
+            "Figure4_exposure_histograms.csv",
+            "Figure4_plot_metadata.csv"
+          ],
+          "content": "Joint 1-km exposure-bin counts with independent marginal histograms",
+          "n_observations": 5914,
+          "suppression": "Counts 1-4 remain masked; true zero is distinct; displayed counts need not sum to the source model-frame N."
+        },
+        "b": {
+          "source_files": [
+            "Figure2_continuous_forest.csv"
+          ],
+          "selection": "weight_spec == unweighted and model == dual-exposure; all four exposure/buffer rows",
+          "n_observations": 5914,
+          "n_participants": 3154,
+          "role": "1-km primary; 500-m buffer sensitivity",
+          "interval": "95% CI with robust variance"
+        },
+        "c-d": {
+          "source_files": [
+            "Figure2a_raincloud_polygons.csv",
+            "Figure2a_raincloud_boxplot_statistics.csv",
+            "Figure2a_raincloud_annotations.csv"
+          ],
+          "content": "1-km/500-m archived unadjusted density/box geometry and mean points",
+          "n_observations_per_buffer": 6472,
+          "mean_intervals": "Not plotted; naive mean CI source columns are retained without modification.",
+          "group_order": [
+            "Low EVI / low O3",
+            "Low EVI / high O3",
+            "High EVI / low O3",
+            "High EVI / high O3"
+          ],
+          "geometry": "Group coordinates translated to current category order; outcome coordinates unchanged."
+        }
+      }
+    },
+    "Figure3": {
+      "renderer": "04_code/PYTHON/render_joint_sensitivity.py",
+      "output_stem": "Figure3_joint_patterns",
+      "panels": {
+        "a-b": {
+          "source_files": [
+            "Figure3a_adjusted_means.csv"
+          ],
+          "content": "Four adjusted joint-pattern means at each buffer",
+          "n_observations": 6471
+        },
+        "c-d": {
+          "source_files": [
+            "primary_continuous_models_v5.csv",
+            "mi_sensitivity_v5.csv"
+          ],
+          "content": "All 16 continuous specifications and both 1-km MI rows; no P filtering",
+          "non_mi_n_observations": 5914,
+          "non_mi_n_participants": 3154,
+          "non_mi_variance": "robust sandwich",
+          "mi_n_observations": null,
+          "mi_n_participants": null,
+          "mi_variance": "model-based, Rubin pooling across 20 imputations",
+          "mi_conversion": "Native-unit CI multiplied by mi_beta_iqr / mi_beta; matched to archived 1-km IQR.",
+          "primary_role": "Unweighted 1-km dual-exposure only; 500 m is buffer sensitivity."
+        }
+      }
+    },
+    "FigureS9": {
+      "renderer": "04_code/PYTHON/render_joint_sensitivity.py",
+      "output_stem": "FigS9_joint_contrasts_precision",
+      "panels": {
+        "a": {
+          "source_files": [
+            "Figure3b_contrasts.csv"
+          ],
+          "content": "All 12 contrast rows including pairwise, within-stratum and DiD",
+          "n_observations": 6471,
+          "duplicate_parameterisation": "Low-EVI/high-O3 vs reference equals O3 within low EVI; not independent evidence."
+        },
+        "b": {
+          "source_files": [
+            "Figure3b_contrasts.csv",
+            "Figure3b_DiD_precision.csv"
+          ],
+          "content": "Both DiD estimates, 95% CI, nominal P, approximate 80% MDE and TOST",
+          "equivalence_margin_years": [
+            -1,
+            1
+          ],
+          "interpretation": "MDE is not an exclusion bound; neither interaction nor equivalence established at alpha=0.05."
+        }
+      }
+    }
+  }
 }

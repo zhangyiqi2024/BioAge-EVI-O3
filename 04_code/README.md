@@ -43,7 +43,7 @@ For reviewer reproduction of every displayed figure/table from public aggregates
 Only this code folder and sibling `03_source_data/` are needed. Install
 `requirements_public.txt` in Python 3.11. Outputs are `output/main`,
 `output/supplementary`, `output/tables` and `output/logs`. The public path
-reconstructs 12 figures and 35 physical tables without fitting models or
+reconstructs 13 figures (4 main and 9 supplementary) and 35 physical tables without fitting models or
 rebuilding the primary BAA. See PUBLIC_REPRODUCTION.md.
 
 ## Environment
@@ -74,8 +74,10 @@ The primary exposure inputs represent four preceding years. The study records
 describe CHAP ozone inputs as 1-km grids, and the official CHAP V2 archive covers
 2000 onward, but the exact locally used release/checksums have not been recovered.
 Do not infer raw-grid provenance from the analysis buffer labels (500 m / 1 km).
-The historical GitHub/Zenodo release mentioned in the manuscript predates this
-local revision; no upload or DOI version update is performed here.
+The revision release branch is `release-2026-10-13-fig3` in
+`zhangyiqi2024/BioAge-EVI-O3`. The default GitHub branch and historical Zenodo
+archive represent earlier releases. Running this code does not publish a release
+or update a DOI version.
 
 ## Privacy and licence
 
@@ -83,3 +85,29 @@ The code is MIT-licensed (see the release LICENSE). Restricted CHARLS-derived
 records are not covered by that licence and cannot be redistributed by this
 package. Do not publish DATA/*.dta, DATA/restricted/, logs, per-person predictions,
 per-person SHAP values, or local reports containing participant identifiers.
+
+## 📊 Current figure composition
+
+Figure 2 combines the 1-km joint exposure distribution and marginal histograms,
+four unweighted dual-exposure estimates, and observed BAA distributions at both
+buffers. Only the 1-km estimates are primary; 500-m estimates assess buffer
+sensitivity. Descriptive mean points have no naive mean confidence intervals;
+the source interval columns remain unchanged. Suppressed counts of 1–4 remain
+distinct from zero, so displayed cell counts need not sum to the model-frame
+total. Exposure coverage and continuous models use 5,914 observations; the
+descriptive BAA panels use 6,472 observations per buffer.
+
+Figure 3 retains the adjusted joint-pattern means (6,471 observations) and all
+18 continuous-model sensitivity estimates: 16 non-MI specifications and both
+1-km MI rows. All nonsignificant IPW EVI results remain displayed. The non-MI
+models use robust variance and 5,914 observations from 3,154 participants;
+MI uses model-based variance and Rubin pooling across 20 imputations, with its
+sample counts unspecified in the aggregate table. Figure S9 contains all 12
+joint contrast rows and both DiD precision rows, including nominal P, MDE and
+TOST. These displays do not establish effect modification. No significance
+threshold, estimate or nominal P value is changed.
+
+The new renderers are `04_code/PYTHON/render_primary_figure.py` for Figure 2
+and `04_code/PYTHON/render_joint_sensitivity.py` for Figure 3 and Figure S9.
+They produce editable PDF/SVG and 600-dpi PNG/TIFF from public aggregate inputs.
+

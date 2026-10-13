@@ -1,8 +1,10 @@
 # BioAge, residential greenness and ozone 🔬
 
 Code and aggregate results for **Joint associations of residential greenness
-and ozone with biological ageing**. This is a local release candidate, not a
-published GitHub/Zenodo update.
+and ozone with biological ageing**. The revision release branch is
+`release-2026-10-13-fig3` in `zhangyiqi2024/BioAge-EVI-O3`; use the Git commit and
+`RELEASE_MANIFEST.json` to identify a particular release. The historical Zenodo
+archive is not changed by running this pipeline.
 
 ## ▶️ One-command reviewer reproduction
 
@@ -22,8 +24,8 @@ occurs during reproduction.
 
 ## 📊 Outputs and scope
 
-- `04_code/output/main/`: main Figures 1–4, PNG/TIFF/PDF; Figure 4 also has vector SVG.
-- `04_code/output/supplementary/`: Supplementary Figures S1–S8.
+- `04_code/output/main/`: main Figures 1–4, PNG/TIFF/PDF; Figures 2–4 also have vector SVG.
+- `04_code/output/supplementary/`: Supplementary Figures S1–S9; S9 also has editable PDF/SVG.
 - `04_code/output/tables/`: Table 1 and 34 SI table panels, as HTML/CSV/JSON;
   open `index.html` or print `all_tables.html` to PDF.
 - `04_code/output/logs/`: per-step logs, software versions, run status and
@@ -84,3 +86,31 @@ for upload, not the local parent workspace containing restricted data.
 
 The structure follows the single-entry-point and figure/table crosswalk
 conventions in Yusaku Horiuchi's replication-package-guide and FAIR principles.
+
+The package reconstructs 13 figures and 35 physical table panels.
+
+## 📊 Current figure composition
+
+Figure 2 combines the 1-km joint exposure distribution and marginal histograms,
+four unweighted dual-exposure estimates, and observed BAA distributions at both
+buffers. Only the 1-km estimates are primary; 500-m estimates assess buffer
+sensitivity. Descriptive mean points have no naive mean confidence intervals;
+the source interval columns remain unchanged. Suppressed counts of 1–4 remain
+distinct from zero, so displayed cell counts need not sum to the model-frame
+total. Exposure coverage and continuous models use 5,914 observations; the
+descriptive BAA panels use 6,472 observations per buffer.
+
+Figure 3 retains the adjusted joint-pattern means (6,471 observations) and all
+18 continuous-model sensitivity estimates: 16 non-MI specifications and both
+1-km MI rows. All nonsignificant IPW EVI results remain displayed. The non-MI
+models use robust variance and 5,914 observations from 3,154 participants;
+MI uses model-based variance and Rubin pooling across 20 imputations, with its
+sample counts unspecified in the aggregate table. Figure S9 contains all 12
+joint contrast rows and both DiD precision rows, including nominal P, MDE and
+TOST. These displays do not establish effect modification. No significance
+threshold, estimate or nominal P value is changed.
+
+The new renderers are `04_code/PYTHON/render_primary_figure.py` for Figure 2
+and `04_code/PYTHON/render_joint_sensitivity.py` for Figure 3 and Figure S9.
+They produce editable PDF/SVG and 600-dpi PNG/TIFF from public aggregate inputs.
+

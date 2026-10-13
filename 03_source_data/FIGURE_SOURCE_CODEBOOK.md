@@ -249,3 +249,27 @@ Rows: 400. SHA-256: `9185cc11654b24aca9b3ebe7b2d0389fd64d0bbd8be055b331a4a96dcf4
 | ozone_center | float64 | 0 | Ozone bin midpoint, micrograms per cubic metre. |
 | n_observations | float64 | 7 | Number of observations; missing when a bin count of 1-4 is suppressed. |
 | suppressed_small_count | bool | 0 | True indicates a count between 1 and 4; its numeric value is intentionally missing. |
+
+## Current composition: Figures 2–3 and S9
+
+Historical source names and export provenance above are preserved. The JSON
+`current_composition` mappings identify current panel use; no numeric source
+table was edited for this composition.
+
+| Figure/panel | Public source files | Current interpretation |
+|---|---|---|
+| 2a | Figure4_joint_density_bins.csv; Figure4_exposure_histograms.csv; Figure4_plot_metadata.csv | Joint 1-km exposure counts with marginal histograms; N=5,914 observations. Counts 1–4 remain suppressed, not zero. |
+| 2b | Figure2_continuous_forest.csv | Four unweighted dual-model rows; 1 km primary, 500 m sensitivity; per-buffer IQR, robust 95% CI; N=5,914 observations/3,154 participants. |
+| 2c–d | Figure2a_raincloud_polygons.csv; Figure2a_raincloud_boxplot_statistics.csv; Figure2a_raincloud_annotations.csv | Unadjusted 1-km/500-m distributions, N=6,472 per buffer. Geometry is translated by group name to the common group order. Means are points; naive mean CIs remain in the source but are not plotted. |
+| 3a–b | Figure3a_adjusted_means.csv | Adjusted joint-pattern means and 95% CI, N=6,471 observations. |
+| 3c–d | primary_continuous_models_v5.csv; mi_sensitivity_v5.csv | Every non-MI specification (16 rows) and both MI rows (2); no P screening. Non-MI N=5,914/3,154 participants, robust variance; MI counts unspecified, model-based variance and Rubin pooling. |
+| S9a | Figure3b_contrasts.csv | All 12 contrasts; duplicated parameterisations are disclosed and are not independent evidence. |
+| S9b | Figure3b_contrasts.csv; Figure3b_DiD_precision.csv | DiD and 95% CI, nominal P, approximate 80% MDE, and TOST at a ±1-year equivalence margin. |
+
+For MI, the source CI columns are in native exposure units. Multiplication by
+`mi_beta_iqr / mi_beta` converts them to the archived 1-km IQR scale, without
+altering P values or refitting. The source-derived IQR is checked against the
+continuous-model IQR. MI addresses remaining missingness only and does not
+recover uncertainty from prior deterministic imputation. MDE is not an exclusion
+bound; interaction and equivalence remain unestablished at alpha = 0.05.
+

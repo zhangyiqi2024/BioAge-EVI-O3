@@ -8,7 +8,7 @@ python path/to/04_code/run_pipeline.py --mode public
 
 Install `requirements_public.txt` in a Python 3.11 environment first. Inputs
 are only the sibling `03_source_data/` folder and this `04_code/` folder.
-All 4 main figures, 8 SI figures, 1 main table and 34 SI table panels are
+All 4 main figures, 9 SI figures, 1 main table and 34 SI table panels are
 rebuilt from public aggregates. No original raster or participant record is
 required. This is displayed-result reconstruction, not statistical refitting.
 
@@ -35,3 +35,12 @@ R/UCRT exit error. Analysis-mode logs are under `04_code/logs/`.
 
 The 00/01 helpers are not the complete upstream outcome/geospatial workflow.
 They write candidate inputs and never overwrite the canonical dataset.
+
+## 📊 Figure renderers
+
+`PYTHON/render_primary_figure.py` renders the four-panel Figure 2.
+`PYTHON/render_joint_sensitivity.py` renders Figure 3 and Figure S9. Figures
+2–3 and S9 include editable PDF/SVG and 600-dpi PNG/TIFF; Figure 4 also has
+vector SVG. The complete pipeline has 13 figures and 35 physical table panels.
+See `RUN_FIGURE3.md` for model coverage and statistical scope.
+
