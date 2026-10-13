@@ -51,11 +51,11 @@ def main():
     checks['matching_title'] = title in ms['paras'] and title in si['paras']
     checks['main_table_count_one'] = len(ms['root'].xpath('//w:tbl',namespaces=NS))==1
     checks['si_table_count_34'] = len(si['root'].xpath('//w:tbl',namespaces=NS))==34
-    checks['si_figure_labels_S1_S8'] = all(re.search(rf'Supplementary Figure S{i}\.',si['text']) for i in range(1,9))
+    checks['si_figure_labels_S1_S9'] = all(re.search(rf'Supplementary Figure S{i}\.',si['text']) for i in range(1,10))
     checks['si_table_labels_S1_S30'] = all(re.search(rf'Supplementary Table S{i}\.',si['text']) for i in range(1,31))
     tables = set(int(x) for x in re.findall(r'Tables? S(\d+)',ms['text']))
     figures = set(int(x) for x in re.findall(r'(?:Figures?|Figs?\.) S(\d+)',ms['text']))
-    checks['main_supplement_calls_resolve'] = tables <= set(range(1,31)) and figures <= set(range(1,9))
+    checks['main_supplement_calls_resolve'] = tables <= set(range(1,31)) and figures <= set(range(1,10))
     checks['core_samples_both_documents'] = all(v in d['text'] for d in (ms,si) for v in ['6,472','3,281','5,914','3,154','6,471'])
     checks['primary_p_values_both_documents'] = all(v in d['text'] for d in (ms,si) for v in ['0.016','0.003'])
     checks['joint_did_p_values_both_documents'] = all(v in d['text'] for d in (ms,si) for v in ['0.605','0.779'])
@@ -72,7 +72,8 @@ def main():
     for i,name in enumerate(names,1):
         checks[f'main_figure_{i}_media_sync'] = ms['media'].get(f'word/media/image{i}.png') == (root/'02_figures/main'/name).read_bytes()
     si_names = ['FigS1_participant_flow.png','FigS2_quartile_scores.png','FigS3_iqr_models.png','FigS4_counterfactual_age.png',
-                'FigS5_lightgbm_scenarios.png','FigS6_dose_response_qgcomp.png','FigS7_phenoage_calibration.png','FigS8_lightgbm_nested.png']
+                'FigS5_lightgbm_scenarios.png','FigS6_dose_response_qgcomp.png','FigS7_phenoage_calibration.png','FigS8_lightgbm_nested.png',
+                'FigS9_joint_contrasts_precision.png']
     for i,name in enumerate(si_names,1):
         checks[f'si_figure_{i}_media_sync'] = si['media'].get(f'word/media/image{i}.png') == (root/'02_figures/supplementary'/name).read_bytes()
     ratios = []
@@ -95,7 +96,7 @@ def main():
             continue
         ratios.append({'media':target,'display_ratio':width/height,'pixel_ratio':im.width/im.height,
                        'ok':abs((width/height)/(im.width/im.height)-1)<0.015})
-    checks['si_image_aspect_ratios'] = len(ratios)==8 and all(r['ok'] for r in ratios)
+    checks['si_image_aspect_ratios'] = len(ratios)==9 and all(r['ok'] for r in ratios)
     if args.baseline_main:
         old = load(args.baseline_main)
         old_table = old['root'].xpath('//w:tbl',namespaces=NS)[0]

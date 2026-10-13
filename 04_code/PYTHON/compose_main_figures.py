@@ -440,57 +440,8 @@ def draw_precision_panel(draw, rows, box):
 
 
 def figure3(root: Path, out: Path) -> None:
-    rows = read_rows(root / "03_source_data" / "Figure3a_adjusted_means.csv")
-    contrasts = read_rows(root / "03_source_data" / "Figure3b_contrasts.csv")
-    precision = read_rows(root / "03_source_data" / "Figure3b_DiD_precision.csv")
-    rows_1km = sorted([r for r in rows if r["scale"] == "1KM"], key=lambda r: int(r["group_order"]))
-    rows_500 = sorted([r for r in rows if r["scale"] == "500m"], key=lambda r: int(r["group_order"]))
-    for frame in [rows_1km, rows_500]:
-        if [int(row["group_order"]) for row in frame] != [1, 2, 3, 4]:
-            raise ValueError("Expected four unique ordered exposure groups")
-        if any(int(row["n"]) != 6471 for row in frame):
-            raise ValueError("Joint-model frame differs from 6,471 observations")
-
-    expected_contrasts = {
-        "Low EVI/high O3 vs reference",
-        "High EVI/low O3 vs reference",
-        "High EVI/high O3 vs reference",
-        "O3 contrast within low EVI",
-        "O3 contrast within high EVI",
-        "Difference-in-differences interaction",
-    }
-    if {r["contrast"] for r in contrasts} != expected_contrasts:
-        raise ValueError("Figure 3 contrast source does not contain the expected six contrasts")
-    if {r["scale"] for r in precision} != {"1KM", "500m"}:
-        raise ValueError("Figure 3 precision source must contain both spatial scales")
-
-    canvas = Image.new("RGB", (3600, 3200), "white")
-    draw = ImageDraw.Draw(canvas)
-
-    # Hero row: the descriptive four-cell exposure pattern estimates.
-    colors, shapes, labels = draw_means_panel(
-        canvas, draw, rows_1km, (80, 65, 1650, 1500), "a", "1 km residential buffer", show_y_label=True)
-    draw_means_panel(
-        canvas, draw, rows_500, (1870, 65, 1650, 1500), "b", "500 m residential buffer")
-
-    # Compact colour/shape key between the descriptive and inferential rows.
-    legend_y = 1605
-    draw.text((80, legend_y), "Joint exposure pattern", font=font(38, True), fill="#333333")
-    for i, (color, shape, label) in enumerate(zip(colors, shapes, labels)):
-        xx = 690 + (i % 2) * 790
-        yy = legend_y + (i // 2) * 60
-        if shape == "circle": draw.ellipse((xx, yy, xx+22, yy+22), fill=color)
-        elif shape == "diamond": draw.polygon([(xx+11, yy-3), (xx+25, yy+11), (xx+11, yy+25), (xx-3, yy+11)], fill=color)
-        elif shape == "triangle": draw.polygon([(xx+11, yy-4), (xx+26, yy+24), (xx-4, yy+24)], fill=color)
-        else: draw.rectangle((xx, yy, xx+22, yy+22), fill=color)
-        draw_label(draw, (xx + 34, yy - 8), label, font(35))
-
-    draw_contrast_forest(draw, contrasts, (80, 1740, 2260, 1260))
-    draw_precision_panel(draw, precision, (2460, 1740, 1080, 1260))
-    draw.text((80, 3070),
-              "Points: adjusted marginal means; whiskers: 95% CI. Contrast panels use the common joint-model frame (6,471 observations).",
-              font=font(34), fill="#333333")
-    save(canvas, out, "Figure3_joint_patterns")
+    from render_joint_sensitivity import render_figure3
+    render_figure3(root, out)
 
 
 def draw_forest_panel(draw, rows, top: int) -> None:
@@ -539,19 +490,8 @@ def draw_forest_panel(draw, rows, top: int) -> None:
 
 
 def figure2(root: Path, out: Path) -> None:
-    from render_public_distributions import raincloud_panel
-    raincloud = raincloud_panel(root)
-    raincloud = fit(raincloud, 3380, 4000)
-    forest_top = 130 + raincloud.height + 105
-    canvas = Image.new("RGB", (3600, forest_top + 1850), "white")
-    draw = ImageDraw.Draw(canvas)
-    draw.text((85, 45), "a", font=font(54, True), fill="black")
-    draw.text((165, 45), "Observed BAA by joint exposure pattern", font=font(50, True), fill="black")
-    canvas.paste(raincloud, ((3600 - raincloud.width) // 2, 130))
-    draw.text((85, forest_top - 65), "b", font=font(54, True), fill="black")
-    draw.text((165, forest_top - 65), "Continuous-exposure associations", font=font(50, True), fill="black")
-    draw_forest_panel(draw, read_rows(root / "03_source_data" / "Figure2_continuous_forest.csv"), forest_top)
-    save(canvas, out, "Figure2_primary_associations")
+    from render_primary_figure import render_figure2
+    render_figure2(root, out)
 
 
 def main() -> int:

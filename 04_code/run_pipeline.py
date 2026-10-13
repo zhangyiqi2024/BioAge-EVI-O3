@@ -49,6 +49,7 @@ def main():
   history.append(run([sys.executable,str(ROOT/"PYTHON"/"render_supplementary_figures.py"),"--root",str(ROOT.parent),"--output-dir",str(si_out)],"public_supplementary_figures",ROOT.parent))
   history.append(run([sys.executable,str(ROOT/"PYTHON"/"render_public_additional.py"),"--root",str(ROOT.parent),"--main-out",str(main_out),"--si-out",str(si_out)],"public_additional_figures",ROOT.parent))
   history.append(run([sys.executable,str(ROOT/"PYTHON"/"render_public_s5.py"),"--root",str(ROOT.parent),"--output-dir",str(si_out)],"public_s5",ROOT.parent))
+  history.append(run([sys.executable,str(ROOT/"PYTHON"/"render_joint_sensitivity.py"),"--root",str(ROOT.parent),"--si-out",str(si_out)],"public_joint_inference",ROOT.parent))
   history.append(run([sys.executable,str(ROOT/"PYTHON"/"render_public_tables.py"),"--root",str(ROOT.parent),"--output-dir",str(table_out)],"public_tables",ROOT.parent))
   history.append(run([sys.executable,str(ROOT/"PYTHON"/"audit_public_reproduction.py"),"--root",str(ROOT.parent),"--main-output",str(main_out),"--si-output",str(si_out),"--table-output",str(table_out),"--output",str(LOG_DIR/"public_reproduction_status.json")],"public_reproduction_audit",ROOT.parent))
  else:

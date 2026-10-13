@@ -24,11 +24,12 @@ FIGURES = [
      "Aggregate flow counts; timing and conceptual DAG encoded in the renderer."),
     ("Figure 2", "main", "Figure2_primary_associations",
      ["Figure2_continuous_forest.csv", "Figure2a_raincloud_polygons.csv",
-      "Figure2a_raincloud_boxplot_statistics.csv", "Figure2a_raincloud_annotations.csv"],
-     "Density geometry, quartiles, means, confidence intervals and forest coefficients; no individual points."),
+      "Figure2a_raincloud_boxplot_statistics.csv", "Figure2a_raincloud_annotations.csv",
+      "Figure4_joint_density_bins.csv", "Figure4_exposure_histograms.csv", "Figure4_plot_metadata.csv"],
+     "Joint exposure counts with suppressed small cells, four core unweighted continuous estimates, and observed BAA density/box/mean summaries; no individual points."),
     ("Figure 3", "main", "Figure3_joint_patterns",
-     ["Figure3a_adjusted_means.csv", "Figure3b_contrasts.csv", "Figure3b_DiD_precision.csv"],
-     "Four-group adjusted means, pairwise/within-stratum contrasts, DiD interaction and precision diagnostics at both buffers."),
+     ["Figure3a_adjusted_means.csv", "primary_continuous_models_v5.csv", "mi_sensitivity_v5.csv"],
+     "Four-group adjusted means and all 18 archived continuous/MI estimates; different sample frames and variance estimators are disclosed."),
     ("Figure 4", "main", "Figure4_exposure_response",
      ["Figure4_exposure_response_v5.csv", "Figure4_joint_contour_v5.csv",
       "Figure4_plot_metadata.csv", "Figure4_exposure_histograms.csv"],
@@ -53,6 +54,9 @@ FIGURES = [
     ("Supplementary Figure S8", "supplementary", "FigS8_lightgbm_nested",
      ["FigS8_lightgbm_nested_shap_groups.csv", "lightgbm_nested_importance_v5.csv"],
      "Aggregate grouped SHAP and permutation importance; no row-level SHAP values."),
+    ("Supplementary Figure S9", "supplementary", "FigS9_joint_contrasts_precision",
+     ["Figure3b_contrasts.csv", "Figure3b_DiD_precision.csv"],
+     "Complete joint-group and within-stratum contrasts, DiD interaction, MDE and TOST; formerly main Figure 3c,d."),
 ]
 
 
@@ -106,8 +110,8 @@ def audit(root: Path, main_output: Path, si_output: Path, table_output: Path) ->
                           cells_match=reader.cells == expected, cells_verified=len(expected),
                           generated=file_record(output, root))
         tables.append(record)
-    if len(figures) != 12 or len(tables) != 35:
-        errors.append("Expected 12 figures and 35 physical tables")
+    if len(figures) != 13 or len(tables) != 35:
+        errors.append("Expected 13 figures and 35 physical tables")
     return {
         "status": "PASS" if not errors else "FAIL",
         "contract": "Reviewer reproduction uses only 03_source_data and 04_code. Raw environmental rasters and restricted participant data are not required.",
