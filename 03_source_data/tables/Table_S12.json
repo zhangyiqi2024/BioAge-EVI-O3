@@ -1,0 +1,293 @@
+{
+  "table_id": "Table_S12",
+  "display_number": "S12",
+  "title": "Supplementary Table S12. Heterogeneity analyses by sex, age and geographic region",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. Stratified mixed-effects models evaluated whether the composite environmental score association with BAA differed by sex, age group or geographic region. Interaction P values formally test heterogeneity across strata.",
+    "Abbreviations: BAA, biological age acceleration; CI, confidence interval; EVI, enhanced vegetation index; O₃, ozone."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "385a3f6706768d36ca6e2dc758e1e51807b43f4490f95a608f65d1c9456b52cf",
+  "physical_table_index": 13,
+  "body_element_index": 149,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 6,
+  "schema_version": 1,
+  "csv_file": "Table_S12.csv",
+  "csv_sha256": "cac3b868a5c44be2147ca42bd1e68cb3f47b261313abe4594abe4789f5083102",
+  "row_count_including_display_headers": 8,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "documented_displayed_values",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/18_qgcomp_heterogeneity.R"
+  ],
+  "linked_aggregate_results": [],
+  "other_author_evidence": []
+}

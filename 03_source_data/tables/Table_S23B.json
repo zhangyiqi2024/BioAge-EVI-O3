@@ -1,0 +1,287 @@
+{
+  "table_id": "Table_S23B",
+  "display_number": "S23",
+  "title": "Supplementary Table S23. Attrition sensitivity analyses.",
+  "panel": "B",
+  "panel_title": "Panel b. Joint-model contrasts under inverse-probability-of-attrition weighting (N = 5,938 observations).",
+  "notes_before": [],
+  "notes_after": [
+    "Note. Joint mixed-effects models with participant-level random intercepts, fitted with combined inverse-probability-of-attrition and exposure weights (winsorised at the 1st/99th percentiles; retained-participant mean attrition weight 1.54, range 1.31–2.00). Reference group: low EVI/low O₃. The difference-in-differences interaction estimates departure from additivity of mean BAA differences. Of 3,197 baseline participants, 2,972 could be scored by the retention model (model frame 4,587 of 4,954 eligible participants)."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "385a3f6706768d36ca6e2dc758e1e51807b43f4490f95a608f65d1c9456b52cf",
+  "physical_table_index": 25,
+  "body_element_index": 200,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 4,
+  "shared_notes": [],
+  "schema_version": 1,
+  "csv_file": "Table_S23B.csv",
+  "csv_sha256": "edcee6ed2553b9f2ccda256659473e9d2b3b73504cdc3a061464d2d4fdd5f7c3",
+  "row_count_including_display_headers": 11,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/41_attrition_analysis.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/attrition_ipaw_joint_v4.csv",
+      "author_archive_path": "03_source_data/attrition_ipaw_joint_v4.csv",
+      "sha256": "66148e7685d3f3832b178ef5f59fffd0714a31c99fe23c5a136cd40adf18bcf1",
+      "row_count": 10,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

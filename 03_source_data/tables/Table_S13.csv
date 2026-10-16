@@ -1,0 +1,12 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Age group,Exposure pattern,N,Mean reduction (years),SE,95% CI
+≤60 years,Both exposures adverse,"2,631",0.680,0.016,"[0.649, 0.712]"
+≤60 years,Only O₃ adverse,525,0.201,0.014,"[0.172, 0.229]"
+61-70 years,Both exposures adverse,"1,544",0.773,0.021,"[0.732, 0.813]"
+61-70 years,Only O₃ adverse,344,0.281,0.016,"[0.250, 0.312]"
+71-80 years,Both exposures adverse,631,0.769,0.033,"[0.704, 0.834]"
+71-80 years,Only O₃ adverse,124,0.192,0.024,"[0.144, 0.240]"
+>80 years,Both exposures adverse,92,0.623,0.069,"[0.487, 0.758]"
+>80 years,Only O₃ adverse,23,0.180,0.066,"[0.051, 0.309]"
+All participants,Both exposures adverse,"4,898",0.720,0.012,"[0.697, 0.743]"
+All participants,Only O₃ adverse,"1,016",0.226,0.010,"[0.207, 0.246]"

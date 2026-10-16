@@ -1,0 +1,16 @@
+column_01,column_02
+Metric,Value
+C-statistic (BAA_PhenoAge alone),0.502
+C-statistic (BAA_PhenoAge + age),0.746
+C-statistic (age alone),0.746
+C-statistic (fully adjusted),0.769
+Prediction slope (descriptive),2.166
+Prediction intercept (descriptive),4.419
+Brier score,0.057
+Scaled Brier score,0.015
+N (baseline 2011),"3,284"
+N deaths,202
+Death rate (%),6.2
+Prediction horizon (years),7.0
+Median survival — decedents (years),4.0
+Median follow-up — survivors (years),7.0

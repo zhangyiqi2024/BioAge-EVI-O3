@@ -1,0 +1,12 @@
+column_01,column_02,column_03,column_04
+Buffer,Contrast,"Estimate, years (95% CI)",P
+1 km,Low EVI/high O₃ vs reference,"0.768 (-0.471, 2.007)",0.224
+1 km,High EVI/low O₃ vs reference,"-1.678 (-3.021, -0.335)",0.014
+1 km,High EVI/high O₃ vs reference,"-0.369 (-1.784, 1.047)",0.610
+1 km,O₃ contrast within high EVI,"1.309 (-0.361, 2.979)",0.124
+1 km,Difference-in-differences,"0.541 (-1.583, 2.666)",0.618
+500 m,Low EVI/high O₃ vs reference,"0.798 (-0.265, 1.862)",0.141
+500 m,High EVI/low O₃ vs reference,"-1.862 (-3.932, 0.208)",0.078
+500 m,High EVI/high O₃ vs reference,"-0.614 (-2.576, 1.349)",0.540
+500 m,O₃ contrast within high EVI,"1.249 (-1.660, 4.157)",0.400
+500 m,Difference-in-differences,"0.450 (-2.642, 3.543)",0.775

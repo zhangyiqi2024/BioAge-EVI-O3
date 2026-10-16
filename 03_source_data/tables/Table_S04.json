@@ -1,0 +1,420 @@
+{
+  "table_id": "Table_S04",
+  "display_number": "S4",
+  "title": "Supplementary Table S4. Cohort construction, outcome derivation and covariate framework",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. This table summarises the cleaned cohort construction, supplied outcome definition and covariate framework. Counts and variable definitions are reported for transparency; the primary analyses use the permitted cleaned analytical frame and aggregate exposure summaries.",
+    "Abbreviations: BAA, biological age acceleration; CHARLS, China Health and Retirement Longitudinal Study; CRP, C-reactive protein; VIF, variance inflation factor."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "385a3f6706768d36ca6e2dc758e1e51807b43f4490f95a608f65d1c9456b52cf",
+  "physical_table_index": 5,
+  "body_element_index": 117,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 4,
+  "schema_version": 1,
+  "csv_file": "Table_S04.csv",
+  "csv_sha256": "8a34246e5b41907f22a35f51ea95528cdc10cfa389e554b4cfe0c10ff883def1",
+  "row_count_including_display_headers": 17,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/03_cohort_flow_replication.R",
+    "04_code/CODE/41_attrition_analysis.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/s4_cohort_flow_v4.csv",
+      "author_archive_path": "03_source_data/s4_cohort_flow_v4.csv",
+      "sha256": "7b68bf72b0d776287a9080ef1bcabd952f7a04e91edf89ec692a0fe79b05a898",
+      "row_count": 9,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

@@ -1,0 +1,5 @@
+# Public figure/table reconstruction; tested on Python 3.11.15 / Windows.
+matplotlib==3.11.1
+pandas==2.3.3
+numpy==2.4.6
+Pillow==12.3.0

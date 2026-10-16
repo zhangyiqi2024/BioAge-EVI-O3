@@ -1,0 +1,10 @@
+column_01,column_02,column_03,column_04,column_05,column_06,column_07,column_08,column_09
+Exposure,Model,Buffer,IV,F-stat,Weak IV,Endog P,Endog,ID
+log(EVI),Single,1 km,Steep slope squared,88.51,Strong,0.049,Present,Exact
+log(EVI),Single,500 m,Steep slope squared,58.09,Strong,0.042,Present,Exact
+log(O₃),Single,1 km,Temp. inversion freq.,981.23,Strong,<0.001,Present,Exact
+log(O₃),Single,500 m,Temp. inversion freq.,925.70,Strong,<0.001,Present,Exact
+log(EVI),Dual,1 km,Steep slope + Temp. inversion,43.11,Strong,0.103,Not detected,Exact
+log(O₃),Dual,1 km,Steep slope + Temp. inversion,"4,640.85",Strong,0.005,Present,Exact
+log(EVI),Dual,500 m,Steep slope + Temp. inversion,56.39,Strong,0.109,Not detected,Exact
+log(O₃),Dual,500 m,Steep slope + Temp. inversion,911.82,Strong,<0.001,Present,Exact

@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "table_count": 36,
+  "main_table_count": 1,
+  "supplementary_physical_table_count": 35,
+  "data_scope": "published table cells and aggregate model summaries only; no participant records",
+  "reconstruction_scope": "archived_displayed_results_not_model_refitting",
+  "tables": [
+    {
+      "table_id": "Table_1",
+      "csv_file": "Table_1.csv",
+      "metadata_file": "Table_1.json",
+      "csv_sha256": "3b25d58d03d9cc720406b6f4d7d1a79f855d5264d87af7d56526abed7aacc7b9",
+      "metadata_sha256": "808ccfbc639fd2be90158c9bb00e22ea43d948467266126073a90c40931bb8eb",
+      "title": "Table 1. Baseline characteristics of participants categorised by descriptive EVI and O₃ exposure-pattern groups.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S01A",
+      "csv_file": "Table_S01A.csv",
+      "metadata_file": "Table_S01A.json",
+      "csv_sha256": "6ef00c67c3b484de8ab2985cfb3dfb7f56922d131989a80422756f78945f2b55",
+      "metadata_sha256": "b3b0d74891042c9064d7e98a761da1a987807ec3a4c5a85767246f793531f08c",
+      "title": "Supplementary Table S1 Panel A. Environmental exposure scores based on quantiles: full quartile-score mixed-effects estimates across adjustment sets",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S01B",
+      "csv_file": "Table_S01B.csv",
+      "metadata_file": "Table_S01B.json",
+      "csv_sha256": "bc78cf6bf656e5c5114b3ff6d57a96549ebf5408f16b8984e36cd0062e78df42",
+      "metadata_sha256": "b9ab48f302676b30a5794a7b559cd65eb19423415662eacf46a9a72de223cbe8",
+      "title": "Supplementary Table S1 Panel B. Environmental exposure scores based on quantiles: qgcomp-style coefficients and signed mixture weights",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S02",
+      "csv_file": "Table_S02.csv",
+      "metadata_file": "Table_S02.json",
+      "csv_sha256": "b4b48f58762a646b65943a1428fd79d0e1edd6b65837a7e4594e52b5894c839c",
+      "metadata_sha256": "abe1520f9f3597c5d5cb3a30f8f3db343e4effabd44237d8293add07466bc04f",
+      "title": "Supplementary Table S2. Instrumental variable estimation of the association of EVI and O₃ with BAA.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S03",
+      "csv_file": "Table_S03.csv",
+      "metadata_file": "Table_S03.json",
+      "csv_sha256": "5fb365f5500653a9b8c6cf12b0a68d78779516387a67a90824e797232466876a",
+      "metadata_sha256": "9b2fd3218cad66d0f3a020eb62c1873f0423888a3097a0b4f34072ec400848f0",
+      "title": "Supplementary Table S3. Separate exploratory pathway regressions for the EVI-BAA association.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S04",
+      "csv_file": "Table_S04.csv",
+      "metadata_file": "Table_S04.json",
+      "csv_sha256": "8a34246e5b41907f22a35f51ea95528cdc10cfa389e554b4cfe0c10ff883def1",
+      "metadata_sha256": "460f61f3df97a2ef8de48653dd824fbe64459f4edaa784750fcb819a92b2a387",
+      "title": "Supplementary Table S4. Cohort construction, outcome derivation and covariate framework",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S05",
+      "csv_file": "Table_S05.csv",
+      "metadata_file": "Table_S05.json",
+      "csv_sha256": "4b5243f6fca34a983e99a27f02b9c204238f39d65031143ce22e3e70d3c27d55",
+      "metadata_sha256": "d3e7fd53958854814ac05a07b8ea11d27f1db9cdc88e05c5d6ef8ef6cbefc046",
+      "title": "Supplementary Table S5. Nonlinearity tests for EVI and O₃ exposure metrics",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S06",
+      "csv_file": "Table_S06.csv",
+      "metadata_file": "Table_S06.json",
+      "csv_sha256": "e528aa92b333edbdf77eb1fd39c5d1166337f8d2481effe91a8b647509f55510",
+      "metadata_sha256": "206360bde23bf26716a8034d3d8cde5db83bb2bd0c6d0bc750d02e41cb0caa24",
+      "title": "Supplementary Table S6. Exposure-response thresholds for EVI and O₃",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S07",
+      "csv_file": "Table_S07.csv",
+      "metadata_file": "Table_S07.json",
+      "csv_sha256": "bdfe755ad271234cd3f3e2d392724238da404f753f34d62338f1c9e12523b875",
+      "metadata_sha256": "e8826435b2e76f8627661eeca6644fed9731e8f77fcea26508c4bea8700559d6",
+      "title": "Supplementary Table S7. Formal EVI × O₃ interaction and ozone-stratified EVI association estimates",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S08",
+      "csv_file": "Table_S08.csv",
+      "metadata_file": "Table_S08.json",
+      "csv_sha256": "4108ae95cb4bc4d3ec56700722e006f5b2423a9b9052aaa6e6e66f0bece34f81",
+      "metadata_sha256": "90a14e68667701534cc45d4f94f3149648d82daf6fe312108efa73ebcbbbf05a",
+      "title": "Supplementary Table S8. Logistic regression models for accelerated BAA",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S09",
+      "csv_file": "Table_S09.csv",
+      "metadata_file": "Table_S09.json",
+      "csv_sha256": "9f1a84ee0d5b0f624211efb90e71817449be5e39bf1bce223182cc62db9ae3b1",
+      "metadata_sha256": "1450164082640ba27fee848212343929a138c04e32255422ec46aee52f5f4ac2",
+      "title": "Supplementary Table S9. Per-IQR linear mixed-model robustness analysis",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S10",
+      "csv_file": "Table_S10.csv",
+      "metadata_file": "Table_S10.json",
+      "csv_sha256": "530299d08e2c3580b8c2e9d1411ad7c9bb14788f61b0d1364f038a3de1907554",
+      "metadata_sha256": "723501970b0ce64ef7d7f3fd3ae562e6ef95a84914a5ffd2d0bf55f194541b3d",
+      "title": "Supplementary Table S10. Longitudinal ΔBAA analysis",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S11",
+      "csv_file": "Table_S11.csv",
+      "metadata_file": "Table_S11.json",
+      "csv_sha256": "df20ae73e1afd7d7b98894a47e4d4e3dbeaf79f68779f6b0cd074df141a4ed37",
+      "metadata_sha256": "bc000c322caec7ae593dcdad7bb3a1291008b46283bf860410947ce049a6f6ba",
+      "title": "Supplementary Table S11. Instrumental-variable validity diagnostics",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S12",
+      "csv_file": "Table_S12.csv",
+      "metadata_file": "Table_S12.json",
+      "csv_sha256": "cac3b868a5c44be2147ca42bd1e68cb3f47b261313abe4594abe4789f5083102",
+      "metadata_sha256": "b78bf9f23a368274de77c6c447ebafc1f8fc2dfbf50f03953f15b17d507531c1",
+      "title": "Supplementary Table S12. Heterogeneity analyses by sex, age and geographic region",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S13",
+      "csv_file": "Table_S13.csv",
+      "metadata_file": "Table_S13.json",
+      "csv_sha256": "5624a982ca4e0ded2835577d7a749d108bb290e10687d6c927e865978eb7d456",
+      "metadata_sha256": "d97fbbf3f09e9aa96647b26eabc6cdc5558956e3cbb54731090da57a852e8c2c",
+      "title": "Supplementary Table S13. Predictive scenario contrasts by age and exposure pattern",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S14",
+      "csv_file": "Table_S14.csv",
+      "metadata_file": "Table_S14.json",
+      "csv_sha256": "97bae820cb610c320ee850ddaf384004c2f96bf87f2df594269487eaa5e2cfd6",
+      "metadata_sha256": "b5cc232b10d507dbb79fd874107b58b5f78096b1605cd511a5c55bbaefec3878",
+      "title": "Supplementary Table S14. LightGBM predicted BAA-difference distribution by age group and exposure pattern under the joint scenario",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S15",
+      "csv_file": "Table_S15.csv",
+      "metadata_file": "Table_S15.json",
+      "csv_sha256": "9f7abc36d7f5b05dd960464dfd5105b5fd7f2991e899466c9954ddd43d1ed2bc",
+      "metadata_sha256": "a5b378145ec5927a6fd5a3997adffa0123c1a9f62ca5c013aca7377927134810",
+      "title": "Supplementary Table S15. Adjusted baseline BA and BAA contrasts by EVI exposure overall and within O₃ strata",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S16",
+      "csv_file": "Table_S16.csv",
+      "metadata_file": "Table_S16.json",
+      "csv_sha256": "c47475c83cfedc6953851e7c44c7c91d2c73b41e3e5895fea39e4f9c0ade6591",
+      "metadata_sha256": "021e433bdaf145ed2f53c209f39fe3e47cb044a21a2200a8576b31a538424c37",
+      "title": "Supplementary Table S16. Four-group adjusted BAA contrasts and difference-in-differences interaction estimates",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S17",
+      "csv_file": "Table_S17.csv",
+      "metadata_file": "Table_S17.json",
+      "csv_sha256": "764825f5df8af2b7ef89a63895c0fafcb7841f7ec7653c7b57e040a4ff259381",
+      "metadata_sha256": "556427b9071668892df16786e070ed15c30c64362ebded384d37d3955e7092fa",
+      "title": "Supplementary Table S17. Candidate machine-learning models and LightGBM predictive scenario analysis",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S18",
+      "csv_file": "Table_S18.csv",
+      "metadata_file": "Table_S18.json",
+      "csv_sha256": "86389b3135556674d6b1a326d463ab49dd2977089dfc93199b709620c39b27d9",
+      "metadata_sha256": "70e55150794a6d6d62c94f5d2068e4c55c12345335c8c5fb5e58e420dff986e5",
+      "title": "Supplementary Table S18. Comparison of baseline (2011) characteristics between participants excluded due to prevalent major chronic disease and those retained.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S19",
+      "csv_file": "Table_S19.csv",
+      "metadata_file": "Table_S19.json",
+      "csv_sha256": "feae0e30448b06ea279934dc5f4dcb92e2b14fe0a8de2d3888a6c59d200f3c2a",
+      "metadata_sha256": "359b85f07ffd1d72d92cd380d6108153c3404cd2d13fbdc4515f10ff2f677b12",
+      "title": "Supplementary Table S19. Study-specific biological-age score components.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S20",
+      "csv_file": "Table_S20.csv",
+      "metadata_file": "Table_S20.json",
+      "csv_sha256": "bdf2404cb98f47666b9cc117f7f87df74f1ca52f7e891c480c4c9257f3b586f7",
+      "metadata_sha256": "c55e320604dfe718ad8035ca601097e314e572b7347a62af7b5a75a33e8c9f97",
+      "title": "Supplementary Table S20. Sensitivity of four-group exposure-pattern associations to alternative classification thresholds.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S21",
+      "csv_file": "Table_S21.csv",
+      "metadata_file": "Table_S21.json",
+      "csv_sha256": "270a2528c771a1d765ce0e53aae08b969377a00004a54e9b78ffc2067f151886",
+      "metadata_sha256": "74af4f865806ef9fe5c7aec83493032cc64cbf70938e4cc2ad5d545d5c11f599",
+      "title": "Supplementary Table S21. Clinical benchmarking of environmental vs behavioural BAA effects.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S22",
+      "csv_file": "Table_S22.csv",
+      "metadata_file": "Table_S22.json",
+      "csv_sha256": "58ab5fda0d3e64ceae56305592d84f65fe5b06bec589566790eac81e95f040e6",
+      "metadata_sha256": "1bb5e02655d5502c3cbf6483b23777f414c3d3a51b357dd5503af54a0ca887a9",
+      "title": "Supplementary Table S22. Exploratory prognostic diagnostics of the supplied BAA score.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S23A",
+      "csv_file": "Table_S23A.csv",
+      "metadata_file": "Table_S23A.json",
+      "csv_sha256": "0968ee87dbade470a852a7651d24e08df3a82fdf8c8fa5040349a20a64b1b92f",
+      "metadata_sha256": "4f6d0d87b6f4d5c2c41e3f843998053bc450b59e1aaf129837bafc02e3e0a519",
+      "title": "Supplementary Table S23. Attrition sensitivity analyses.",
+      "panel_title": "Panel a. Baseline (2011) characteristics of participants retained in the analytical cohort versus 2011-only participants."
+    },
+    {
+      "table_id": "Table_S23B",
+      "csv_file": "Table_S23B.csv",
+      "metadata_file": "Table_S23B.json",
+      "csv_sha256": "edcee6ed2553b9f2ccda256659473e9d2b3b73504cdc3a061464d2d4fdd5f7c3",
+      "metadata_sha256": "6f0902bb01d057bdc251143be772e38f14724ac566ca79050eeb262330d4872c",
+      "title": "Supplementary Table S23. Attrition sensitivity analyses.",
+      "panel_title": "Panel b. Joint-model contrasts under inverse-probability-of-attrition weighting (N = 5,938 observations)."
+    },
+    {
+      "table_id": "Table_S23C",
+      "csv_file": "Table_S23C.csv",
+      "metadata_file": "Table_S23C.json",
+      "csv_sha256": "59440bdfad3717fbd288f54741d0dee139979842bf08eac96bfca736fb9cdbde",
+      "metadata_sha256": "fe1e11c427ea897450005bbc554694cbd37f3ac509853673bcd4899bedb77cc3",
+      "title": "Supplementary Table S23. Attrition sensitivity analyses.",
+      "panel_title": "Panel c. Pattern-mixture difference-in-differences estimates by non-ignorable attrition parameter δ (N = 8,365 observations)."
+    },
+    {
+      "table_id": "Table_S24",
+      "csv_file": "Table_S24.csv",
+      "metadata_file": "Table_S24.json",
+      "csv_sha256": "e3de1ddec3efc906605396644241c93ced52c6ff82233de1efe42827367709a2",
+      "metadata_sha256": "5a250061fe50205a3d8bc8d7d9dc917eb5f703c8f07ecdeccb20ca19e6c594e6",
+      "title": "Supplementary Table S24. Primary continuous-exposure models: per-IQR associations of EVI and O₃ with BAA across scales and specifications.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S25",
+      "csv_file": "Table_S25.csv",
+      "metadata_file": "Table_S25.json",
+      "csv_sha256": "ac7deba381b7370d407faca4b021f577ebe817ad958278802a5cba25bfeb1da2",
+      "metadata_sha256": "082652b66ac488f02ce32291856f62d873278397be09e5e92f4340652ab466b4",
+      "title": "Supplementary Table S25. Exploratory held-out prognostic analysis of a separate score.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S26",
+      "csv_file": "Table_S26.csv",
+      "metadata_file": "Table_S26.json",
+      "csv_sha256": "6c23f7117158658804ee2202f9045476ff5976e45b22a05d4bbe66c21a719940",
+      "metadata_sha256": "bf6b49c474c50bf02ce2e595d1462d9573db2048ed580793e040e2908ebbe386",
+      "title": "Supplementary Table S26. Precision analyses for the difference-in-differences interaction.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S27",
+      "csv_file": "Table_S27.csv",
+      "metadata_file": "Table_S27.json",
+      "csv_sha256": "6a5ab71105ad31d81a3bd9aa46dd487288ca4f6d45305fe92cf2e8903c4b87c0",
+      "metadata_sha256": "ac82750952b58923a686513b611808edf4839da037f60bd6cb3681a0c60f4f08",
+      "title": "Supplementary Table S27. Exposure distributions across sequential cohort-exclusion steps.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S28",
+      "csv_file": "Table_S28.csv",
+      "metadata_file": "Table_S28.json",
+      "csv_sha256": "7824250d80362588dcc4338797b1d3efe74802ca5c21c3214c208e8e5868eff5",
+      "metadata_sha256": "ee81e4fe1321ec5bf21d7120b7cda9d6409ee3ecd83afbcbdf3302ddd470e782",
+      "title": "Supplementary Table S28. Multiple-imputation sensitivity analysis of the primary continuous-exposure models.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S29",
+      "csv_file": "Table_S29.csv",
+      "metadata_file": "Table_S29.json",
+      "csv_sha256": "26ab36ff7e33bb773baea91984ff9959f128568fe3077fecaa7b5968abfc2098",
+      "metadata_sha256": "de06624957a74dae317422d90cecf0384c98fc8a667093b0912f0e061ccd1c7b",
+      "title": "Supplementary Table S29. Inverse-probability weight distributions, effective sample sizes and covariate balance.",
+      "panel_title": ""
+    },
+    {
+      "table_id": "Table_S30A",
+      "csv_file": "Table_S30A.csv",
+      "metadata_file": "Table_S30A.json",
+      "csv_sha256": "87ceb60c11a42416fc8c65a2f7214a9b375a5963f16e16d71fdd95557f7d19f5",
+      "metadata_sha256": "4b7d8b90bf4b7dd0ee11303ddb100945326c6f9ea555fe70fe0baf09ad778523",
+      "title": "Supplementary Table S30. Participant-level evaluation of the LightGBM predictive model.",
+      "panel_title": "Panel a. Held-out performance using the participant-level train/validation/test split."
+    },
+    {
+      "table_id": "Table_S30B",
+      "csv_file": "Table_S30B.csv",
+      "metadata_file": "Table_S30B.json",
+      "csv_sha256": "34b19aefc902637bfc3b0b9e0cf5f05e1aac9ac3d7b1d05aaa6076e7f779641d",
+      "metadata_sha256": "053c2bf262de8af035680cea77b4dfe6173502f8601a31d54ec6822ef6090a62",
+      "title": "Supplementary Table S30. Participant-level evaluation of the LightGBM predictive model.",
+      "panel_title": "Panel b. Grouped exact TreeSHAP attributions on the held-out test participants."
+    },
+    {
+      "table_id": "Table_S31",
+      "csv_file": "Table_S31.csv",
+      "metadata_file": "Table_S31.json",
+      "csv_sha256": "8b6038471a77add4bdf8721a06b78c716ae7f6fb02620b56cd19c7300388a7d2",
+      "metadata_sha256": "730a13dafd3cdd8d32a409982690e2f46cb51325f002a4e8721a4c9d1911e3a4",
+      "title": "Supplementary Table S31. Co-pollutant mutual-adjustment sensitivity analysis.",
+      "panel_title": ""
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "table_id": "Table_S09",
+  "display_number": "S9",
+  "title": "Supplementary Table S9. Per-IQR linear mixed-model robustness analysis",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. Regression coefficients and standard errors are reported for a one-interquartile-range increase in 1-km 4-year mean EVI or O₃ exposure. Single-exposure models include one exposure, whereas dual-exposure models mutually adjust EVI and O₃. The mutually adjusted 1-km estimates correspond to the prespecified primary analysis (main-text Figure 2); the full set of continuous-exposure models is reported in Supplementary Table S24. Models in this table were fitted by restricted maximum likelihood with model-based standard errors; the prespecified primary estimates in Table S24 use robust sandwich variance, so P values for the same point estimate differ slightly between the two tables.",
+    "Abbreviations: BAA, biological age acceleration; CI, confidence interval; EVI, enhanced vegetation index; IQR, interquartile range; O₃, ozone; SE, standard error."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "385a3f6706768d36ca6e2dc758e1e51807b43f4490f95a608f65d1c9456b52cf",
+  "physical_table_index": 10,
+  "body_element_index": 137,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 7,
+  "schema_version": 1,
+  "csv_file": "Table_S09.csv",
+  "csv_sha256": "9f1a84ee0d5b0f624211efb90e71817449be5e39bf1bce223182cc62db9ae3b1",
+  "row_count_including_display_headers": 9,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/16_iqr_models.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/iqr_models_detailed_results.csv",
+      "author_archive_path": "03_source_data/iqr_models_detailed_results.csv",
+      "sha256": "e9161af1573b34be0cf7fca5e6b242574e626ddb93f66c628072864528dbeb8b",
+      "row_count": 8,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

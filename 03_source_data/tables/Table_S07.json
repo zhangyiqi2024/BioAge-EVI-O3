@@ -1,0 +1,165 @@
+{
+  "table_id": "Table_S07",
+  "display_number": "S7",
+  "title": "Supplementary Table S7. Formal EVI × O₃ interaction and ozone-stratified EVI association estimates",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. The EVI × O₃ product term in the linear BAA model tests departure from additivity of mean BAA differences. EVI at low O₃ and EVI at high O₃ are EVI coefficients from separate stratified fits within low- and high-O₃ strata; EVI difference tests whether these stratum-specific estimates differ. These adjusted associations do not establish causal effect modification. The product-term fit, the stratum-specific estimates, the four-group difference-in-differences contrast (Table S16) and the continuous product term (Table S20) quantify the same additivity departure under different exposure parameterisations and weighting schemes and are not expected to coincide numerically; none provided precise evidence of effect modification.",
+    "Abbreviations: BAA, biological age acceleration; EVI, enhanced vegetation index; O₃, ozone."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "385a3f6706768d36ca6e2dc758e1e51807b43f4490f95a608f65d1c9456b52cf",
+  "physical_table_index": 8,
+  "body_element_index": 129,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 7,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 7,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 7,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 8,
+  "schema_version": 1,
+  "csv_file": "Table_S07.csv",
+  "csv_sha256": "bdfe755ad271234cd3f3e2d392724238da404f753f34d62338f1c9e12523b875",
+  "row_count_including_display_headers": 3,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "documented_displayed_values",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/23_interaction_analysis.do"
+  ],
+  "linked_aggregate_results": [],
+  "other_author_evidence": [
+    "06_tables/EVI_O3_interaction_summary_professional.docx"
+  ]
+}

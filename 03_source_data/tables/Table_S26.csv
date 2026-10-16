@@ -1,0 +1,4 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Scale,"DiD estimate (95% CI), years",SE,"MDE (80% power), years",TOST margin,TOST P
+1 km,"0.51 (-1.42, 2.44)",0.984,2.76,±1 year,0.309
+500 m,"0.35 (-2.08, 2.78)",1.240,3.47,±1 year,0.300

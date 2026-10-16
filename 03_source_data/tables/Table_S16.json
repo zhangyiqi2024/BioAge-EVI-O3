@@ -1,0 +1,140 @@
+{
+  "table_id": "Table_S16",
+  "display_number": "S16",
+  "title": "Supplementary Table S16. Four-group adjusted BAA contrasts and difference-in-differences interaction estimates",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. Adjusted contrasts are from linear mixed-effects models with participant-level random intercepts, inverse-probability weights, and robust standard errors. The O₃ within high EVI contrast is the difference between the High EVI/high O₃ and High EVI/low O₃ groups. The difference-in-differences (DiD) interaction estimates departure from additivity of mean BAA differences and should not be interpreted as evidence of effect modification or an intervention effect. Abbreviations: BAA, biological age acceleration; DiD, difference-in-differences; EVI, enhanced vegetation index; O₃, ozone."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "385a3f6706768d36ca6e2dc758e1e51807b43f4490f95a608f65d1c9456b52cf",
+  "physical_table_index": 17,
+  "body_element_index": 164,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 6,
+  "schema_version": 1,
+  "csv_file": "Table_S16.csv",
+  "csv_sha256": "c47475c83cfedc6953851e7c44c7c91d2c73b41e3e5895fea39e4f9c0ade6591",
+  "row_count_including_display_headers": 3,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/08_joint_association.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/joint_association_contrasts_v4.csv",
+      "author_archive_path": "03_source_data/joint_association_contrasts_v4.csv",
+      "sha256": "4b33450a10d99b008f80cd262f1854691b637053048ec692776c3ec874c93af4",
+      "row_count": 12,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

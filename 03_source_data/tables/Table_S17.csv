@@ -1,0 +1,9 @@
+column_01,column_02,column_03,column_04
+Algorithm,Model family,Evaluation metrics considered,Final role
+LASSO,Penalized linear regression,"RMSE, MAE, R², adjusted R², explained variance, MAPE, RAE and RRSE",Candidate model
+Elastic Net,Penalized linear regression,"RMSE, MAE, R², adjusted R², explained variance, MAPE, RAE and RRSE",Candidate model
+GBM,Tree-based boosting,"RMSE, MAE, R², adjusted R², explained variance, MAPE, RAE and RRSE",Candidate model
+LightGBM,Gradient-boosted decision trees,"RMSE, MAE, R², adjusted R², explained variance, MAPE, RAE and RRSE",Final model for individual-level scenario prediction (descriptive) and SHAP analysis
+Cubist,Rule-based regression,"RMSE, MAE, R², adjusted R², explained variance, MAPE, RAE and RRSE",Candidate model
+PLS,Latent-factor regression,"RMSE, MAE, R², adjusted R², explained variance, MAPE, RAE and RRSE",Candidate model
+GAM,Flexible additive regression,"RMSE, MAE, R², adjusted R², explained variance, MAPE, RAE and RRSE",Candidate model

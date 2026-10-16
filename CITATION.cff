@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use the code or aggregate source data, please cite the manuscript and this release."
+title: "Code and aggregate source data for Repeated-measure associations of EVI within residential buffers and ozone with biological age acceleration in China"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: YiQi
+  - family-names: Ying
+    given-names: Jun
+  - family-names: Zhang
+    given-names: Ruiwu
+  - family-names: Zhang
+    given-names: Youyou
+repository-code: "https://github.com/zhangyiqi2024/BioAge-EVI-O3"
+license: MIT
+version: "2026.10.17-reviewer-materials"
+date-released: "2026-10-17"
+abstract: "Aggregate-only reproduction package for the manuscript Repeated-measure associations of EVI within residential buffers and ozone with biological age acceleration in China. The public Python path rebuilds the displayed main and supplementary figures and tables without distributing individual-level CHARLS records or environmental rasters."

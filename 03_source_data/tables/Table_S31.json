@@ -1,0 +1,970 @@
+{
+  "table_id": "Table_S31",
+  "display_number": "S31",
+  "title": "Supplementary Table S31. Co-pollutant mutual-adjustment sensitivity analysis.",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. Estimates are adjusted mean BAA differences per buffer-specific IQR from unweighted WeMix mixed-effects models with participant-level random intercepts, robust (sandwich) covariance and the primary covariate set. The primary dual-exposure model includes EVI within residential buffers and O₃. Sensitivity models additionally include the supplied current-year PM₂.₅ field, the supplied current-year NO₂ field, or both simultaneously. PM₂.₅ and NO₂ are treated as current-year co-pollutant fields and are not interpreted as validated four-year exposure means. Complete-case model frames were used; N therefore varies across specifications. This table is supportive and does not establish a causal or independent O₃ association.",
+    "Abbreviations: BAA, biological age acceleration; CI, confidence interval; EVI, enhanced vegetation index; IQR, interquartile range; NO₂, nitrogen dioxide; O₃, ozone; PM₂.₅, particulate matter with aerodynamic diameter ≤2.5 μm."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "385a3f6706768d36ca6e2dc758e1e51807b43f4490f95a608f65d1c9456b52cf",
+  "physical_table_index": 35,
+  "body_element_index": 231,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 4,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 5,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 6,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 7,
+  "schema_version": 1,
+  "csv_file": "Table_S31.csv",
+  "csv_sha256": "8b6038471a77add4bdf8721a06b78c716ae7f6fb02620b56cd19c7300388a7d2",
+  "row_count_including_display_headers": 25,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/55_copollutant_sensitivity.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/copollutant_sensitivity_v1.csv",
+      "author_archive_path": "03_source_data/copollutant_sensitivity_v1.csv",
+      "sha256": "a592390401b7b9b1799db93395f3fcdc6158948014ddbc36e13fb5e62a0b5460",
+      "row_count": 24,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

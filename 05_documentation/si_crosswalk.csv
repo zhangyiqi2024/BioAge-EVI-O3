@@ -1,0 +1,52 @@
+item,analysis_script,source_table,status
+S1A,12_quartile_scores.R,quartile_scores_detailed_results.csv,matched values
+S1B,15_qgcomp_final.R,gcomp_core_exposures_summary.csv,matched values
+S2,30_iv_diagnostics.R;31_iv_full_tables.R,iv_estimates_v4.csv,matched values
+S3,32_mediation_analysis.do,mediation_analysis_results.csv,matched values
+S4,03_cohort_flow_replication.R;41_attrition_analysis.R,s4_cohort_flow_v4.csv,archived counts; intermediate lineage unresolved
+S5,22_nonlinearity_tests.do,Nonlinearity_Test_Results_Formatted.docx,identified source
+S6,19_dose_response.R,threshold_results_EVI_O3.csv,identified source
+S7,23_interaction_analysis.do,EVI_O3_interaction_summary_professional.docx,matched values
+S8,24_logistic_sensitivity.do,Stata log: six models,no standalone CSV; duplicate column corrected
+S9,16_iqr_models.R,iqr_models_detailed_results.csv,matched values
+S10,25_delta_baa_sensitivity.do,results_summary_DeltaBAA.docx,matched values
+S11,30_iv_diagnostics.R;31_iv_full_tables.R,iv_validity_tests_v4.csv,matched values
+S12,18_qgcomp_heterogeneity.R,source output not separately archived,matched displayed numerical summary
+S13,42_predictive_scenario_si_tables.R,s13_scenario_reductions_by_age_pattern_v4.csv,matched values; not Fig S5 historical plot
+S14,42_predictive_scenario_si_tables.R,s14_scenario_reduction_distribution_v4.csv,matched values; not Fig S5 historical plot
+S15,05_adjusted_baa_ba.do,detailed_results_summary.csv,matched values
+S16,08_joint_association.R,joint_association_contrasts_v4.csv,matched values
+S17,36_predictive_scenarios.R,predictive_model_performance_v4.csv;predictive_scenario_contrasts_v4.csv,matched values
+S18,41_attrition_analysis.R,s18_excluded_vs_included_v4.csv,matched values
+S19,documented biomarker mapping,none,stored primary-score implementation not verified
+S20,26_kmeans_robustness.do;27_kmeans_unweighted_verification.R,Stata/R output,unweighted specification
+S21,40_clinical_benchmarks.R,s21_clinical_benchmarks_v4.csv,matched values; per-IQR uses43
+S22,38_phenoage_validation.R,PhenoAge_validation_metrics.csv,apparent analytical-cohort evaluation
+S23a,41_attrition_analysis.R,attrition_baseline_comparison_v4.csv,matched values
+S23b,41_attrition_analysis.R,attrition_ipaw_joint_v4.csv,matched values
+S23c,41_attrition_analysis.R,attrition_pattern_mixture_v4.csv,matched values; recalibrated outcome
+S24,43_primary_continuous_models.R,primary_continuous_models_v5.csv,matched values
+S25,44_outcome_validation_splitsample.R,outcome_validation_splitsample_v5.csv,row counts not unique participants; nine vs seven predictors
+S26,45_mde_tost.R,did_mde_tost_v5.csv,matched values; MDE interpretation corrected
+S27,46_selection_exposure_table.R,selection_exposure_by_step_v5.csv,matched values; O3 max rounds88.0
+S28,47_mi_sensitivity.R,mi_sensitivity_v5.csv,matched values
+S29,48_weight_diagnostics.R,weight_distribution_v5.csv;weight_balance_smd_v5.csv,matched values
+S30,49_lightgbm_nested.R,lightgbm_nested_performance_v5.csv;lightgbm_nested_shap_groups_v5.csv,participant split; preprocessing before split
+Fig S1,04_code/PYTHON/render_public_additional.py,03_source_data/FigureS1_participant_flow.csv,REGENERATED_FROM_PUBLIC_SOURCE; Aggregate participant-flow counts.
+Fig S2,04_code/PYTHON/render_supplementary_figures.py,03_source_data/quartile_scores_detailed_results.csv,REGENERATED_FROM_PUBLIC_SOURCE; Quartile-score coefficients and confidence intervals.
+Fig S3,04_code/PYTHON/render_supplementary_figures.py,03_source_data/iqr_models_detailed_results.csv,REGENERATED_FROM_PUBLIC_SOURCE; Per-IQR coefficients and confidence intervals.
+Fig S4,04_code/PYTHON/render_supplementary_figures.py,03_source_data/FigS4_counterfactual_age_aggregates.csv,REGENERATED_FROM_PUBLIC_SOURCE; Age-group box/whisker summaries; individual outliers omitted.
+Fig S5,04_code/PYTHON/render_public_s5.py,03_source_data/s13_scenario_reductions_by_age_pattern_v4.csv;03_source_data/s14_scenario_reduction_distribution_v4.csv,"REGENERATED_FROM_PUBLIC_SOURCE; Retained 5,914-observation scenario means, confidence intervals and quartiles from Tables S13-S14."
+Fig S6,04_code/PYTHON/render_public_additional.py,03_source_data/FigS6_gam_curve_coordinates.csv;03_source_data/FigS6_gam_metadata.csv;03_source_data/FigS6_signed_weights.csv;03_source_data/FigS6_qgcomp_metadata.csv,REGENERATED_FROM_PUBLIC_SOURCE; Baseline age/sex-adjusted GAM curves and separately estimated signed exposure weights.
+Fig S7,04_code/PYTHON/render_public_additional.py,03_source_data/FigS7_calibration_deciles.csv;03_source_data/FigS7_calibration_smoother.csv;03_source_data/FigS7_calibration_annotations.csv,"REGENERATED_FROM_PUBLIC_SOURCE; Risk-decile calibration and archived smoother; apparent validation, not external validation."
+Fig S8,04_code/PYTHON/render_public_additional.py,03_source_data/FigS8_lightgbm_nested_shap_groups.csv;03_source_data/lightgbm_nested_importance_v5.csv,REGENERATED_FROM_PUBLIC_SOURCE; Aggregate grouped SHAP and permutation importance; no row-level SHAP values.
+F1,04_code/PYTHON/render_public_additional.py,03_source_data/FigureS1_participant_flow.csv,REGENERATED_FROM_PUBLIC_SOURCE; Aggregate participant-flow counts.
+F2,04_code/PYTHON/render_supplementary_figures.py,03_source_data/quartile_scores_detailed_results.csv,REGENERATED_FROM_PUBLIC_SOURCE; Quartile-score coefficients and confidence intervals.
+F3,04_code/PYTHON/render_supplementary_figures.py,03_source_data/iqr_models_detailed_results.csv,REGENERATED_FROM_PUBLIC_SOURCE; Per-IQR coefficients and confidence intervals.
+F4,04_code/PYTHON/render_supplementary_figures.py,03_source_data/FigS4_counterfactual_age_aggregates.csv,REGENERATED_FROM_PUBLIC_SOURCE; Age-group box/whisker summaries; individual outliers omitted.
+F5,04_code/PYTHON/render_public_s5.py,03_source_data/s13_scenario_reductions_by_age_pattern_v4.csv;03_source_data/s14_scenario_reduction_distribution_v4.csv,"REGENERATED_FROM_PUBLIC_SOURCE; Retained 5,914-observation scenario means, confidence intervals and quartiles from Tables S13-S14."
+F6,04_code/PYTHON/render_public_additional.py,03_source_data/FigS6_gam_curve_coordinates.csv;03_source_data/FigS6_gam_metadata.csv;03_source_data/FigS6_signed_weights.csv;03_source_data/FigS6_qgcomp_metadata.csv,REGENERATED_FROM_PUBLIC_SOURCE; Baseline age/sex-adjusted GAM curves and separately estimated signed exposure weights.
+F7,04_code/PYTHON/render_public_additional.py,03_source_data/FigS7_calibration_deciles.csv;03_source_data/FigS7_calibration_smoother.csv;03_source_data/FigS7_calibration_annotations.csv,"REGENERATED_FROM_PUBLIC_SOURCE; Risk-decile calibration and archived smoother; apparent validation, not external validation."
+F8,04_code/PYTHON/render_public_additional.py,03_source_data/FigS8_lightgbm_nested_shap_groups.csv;03_source_data/lightgbm_nested_importance_v5.csv,REGENERATED_FROM_PUBLIC_SOURCE; Aggregate grouped SHAP and permutation importance; no row-level SHAP values.
+Fig S9,04_code/PYTHON/render_joint_sensitivity.py,03_source_data/Figure3b_contrasts.csv;03_source_data/Figure3b_DiD_precision.csv,"REGENERATED_FROM_PUBLIC_SOURCE; All joint contrasts and DiD precision; nominal P, MDE and TOST retained."
+F9,04_code/PYTHON/render_joint_sensitivity.py,03_source_data/Figure3b_contrasts.csv;03_source_data/Figure3b_DiD_precision.csv,"REGENERATED_FROM_PUBLIC_SOURCE; All joint contrasts and DiD precision; nominal P, MDE and TOST retained."

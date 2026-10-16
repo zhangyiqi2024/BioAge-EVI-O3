@@ -1,0 +1,18 @@
+column_01,column_02,column_03,column_04
+Panel,Item,Definition or criterion,N/variables
+A. Cohort construction,Original CHARLS observations,All observations available across CHARLS waves before cohort restrictions,"96,628 observations"
+A. Cohort construction,Residence,Retained observations with non-missing residence (city),"96,628 observations"
+A. Cohort construction,Age restriction,Retained participants aged >=45 years,"94,240 observations"
+A. Cohort construction,Biomarker waves,Retained wave 1 (2011) and wave 3 (2015),"37,049 observations"
+A. Cohort construction,Biomarker availability,Retained observations with complete core biomarkers,"21,630 observations"
+A. Cohort construction,Reverse-causation control,"Retained participants free of baseline cancer, diabetes, heart disease, stroke, chronic lung disease or memory disease","17,502 observations"
+A. Cohort construction,PhenoAge quality control,"Restricted to fasting samples, plausible biomarker ranges, CRP <10 mg/L and valid time/sex variables","13,111 observations"
+A. Cohort construction,Both-wave observation,Retained participants observed at both biomarker waves (2011 and 2015),"6,568 observations; 3,284 participants"
+A. Cohort construction,Analytical sample,Retained participants aged >45 and <90 years with complete exposure and covariate data,"6,472 participant-wave observations; 3,281 participants"
+B. Outcome derivation,PhenoAge,Study-specific biological-age score and BAA supplied in the cleaned analytical dataset; component definitions are listed for transparency.,"Continuous, years"
+B. Outcome derivation,BAA,Residual from regressing the phenotypic-age score on chronological age,Positive values indicate accelerated biological ageing
+B. Outcome derivation,ΔBAA,BAA in 2015 minus BAA in 2011,Used in longitudinal sensitivity analyses
+C. Covariates,Demographic and socioeconomic,"Age, sex, education, household consumption, retirement status and pension insurance",Main adjustment set
+C. Covariates,Lifestyle and clinical,"Smoking, alcohol drinking, body mass index, hypertension and dyslipidaemia",Main adjustment set
+C. Covariates,Climate and geography,"Principal components derived from annual mean temperature, precipitation, snow-cover days, elevation and latitude",Geographic-climatic adjustment
+C. Diagnostics,Multicollinearity,All VIF values <2; mean VIF = 1.27,No meaningful multicollinearity detected

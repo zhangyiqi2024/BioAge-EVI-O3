@@ -1,0 +1,4 @@
+column_01,column_02,column_03,column_04,column_05,column_06,column_07
+Scale,N,Weight mean,Weight CV,ESS,"ESS, % of N","ESS, smallest group"
+1 km,"6,471",3.99,0.36,"5,722",88.4,946
+500 m,"6,471",3.97,0.81,"3,917",60.5,423

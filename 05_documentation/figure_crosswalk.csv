@@ -1,0 +1,11 @@
+figure,panel,content,source_asset,source_data,embedded_media
+Figure 1,a,Participant flow and sample selection,04_code/PYTHON/compose_main_figures.py,03_source_data/FigureS1_participant_flow.csv,word/media/image1.png
+Figure 1,b,Exposure timing and four-year lag with safe O3 label,04_code/PYTHON/compose_main_figures.py,NA,word/media/image1.png
+Figure 1,c,Five-node DAG with primary paths and candidate mediators,04_code/PYTHON/compose_main_figures.py,NA,word/media/image1.png
+Figure 2,a,Joint 1-km exposure-bin distribution and marginal histograms; small cells suppressed,04_code/PYTHON/render_primary_figure.py,03_source_data/Figure4_joint_density_bins.csv;03_source_data/Figure4_exposure_histograms.csv;03_source_data/Figure4_plot_metadata.csv,word/media/image2.png
+Figure 2,b,Four unweighted dual-model associations; 1-km primary and 500-m buffer sensitivity,04_code/PYTHON/render_primary_figure.py,03_source_data/Figure2_continuous_forest.csv,word/media/image2.png
+Figure 2,c-d,Unadjusted BAA half-density and box distributions with mean points; mean CIs not plotted,04_code/PYTHON/render_primary_figure.py,03_source_data/Figure2a_raincloud_polygons.csv;03_source_data/Figure2a_raincloud_boxplot_statistics.csv;03_source_data/Figure2a_raincloud_annotations.csv,word/media/image2.png
+Figure 3,a-b,Adjusted joint-pattern means at 1-km and 500-m buffers,04_code/PYTHON/render_joint_sensitivity.py,03_source_data/Figure3a_adjusted_means.csv,word/media/image3.png
+Figure 3,c-d,All 18 continuous-model sensitivity estimates including both MI rows and every IPW EVI result,04_code/PYTHON/render_joint_sensitivity.py,03_source_data/primary_continuous_models_v5.csv;03_source_data/mi_sensitivity_v5.csv,word/media/image3.png
+Figure 4,a-b,EVI and O3 spline curves,04_code/PYTHON/render_public_additional.py,03_source_data/Figure4_exposure_response_v5.csv,word/media/image4.png
+Figure 4,c,Joint EVI by O3 contour,04_code/PYTHON/render_public_additional.py,03_source_data/Figure4_joint_contour_v5.csv,word/media/image4.png

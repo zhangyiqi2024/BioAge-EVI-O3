@@ -1,0 +1,10 @@
+step,criterion,n_obs,excluded_from_previous,exclusion_reason
+0,Original merged observations (CHARLS waves 1-5),96628,,
+1,Non-missing residence (city),96628,0,missing residence
+2,Age >= 45 years,94240,2388,aged < 45 years
+3,Biomarker waves (2011 and 2015),37049,57191,non-biomarker waves
+4,Complete core biomarkers,21630,15419,incomplete biomarkers
+5,No prevalent major chronic disease at baseline,17502,4128,prevalent chronic disease at baseline
+6,"PhenoAge quality control (fasting, valid ranges, CRP < 10 mg/L)",13111,4391,failing PhenoAge QC
+7,Observed at both biomarker waves,6568,6543,observed at only one biomarker wave
+8,Analytical sample (ages 46-89; complete exposures and covariates),6472,96,outside age range or missing exposures/covariates

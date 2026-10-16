@@ -1,0 +1,10 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Exposure,Model Type,Buffer,Coefficient (SE),P-value,95% CI
+log(EVI),Single-exposure,1 km,-33.917 (15.863),0.033,"[-65.020, -2.813]"
+log(EVI),Single-exposure,500 m,-44.672 (21.154),0.035,"[-86.149, -3.195]"
+log(O₃),Single-exposure,1 km,27.211 (6.491),<0.001,"[14.483, 39.938]"
+log(O₃),Single-exposure,500 m,26.771 (6.396),<0.001,"[14.230, 39.313]"
+log(EVI),Dual-exposure,1 km,-29.192 (16.288),0.073,"[-61.129, 2.744]"
+log(O₃),Dual-exposure,1 km,23.164 (7.294),0.002,"[8.862, 37.465]"
+log(EVI),Dual-exposure,500 m,-35.917 (21.034),0.088,"[-77.159, 5.324]"
+log(O₃),Dual-exposure,500 m,26.860 (6.847),<0.001,"[13.436, 40.284]"

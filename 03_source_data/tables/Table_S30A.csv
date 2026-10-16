@@ -1,0 +1,3 @@
+column_01,column_02,column_03,column_04,column_05,column_06,column_07
+Model,n train / val / test,Best iteration,R² test,RMSE test,MAE test,Protocol
+LightGBM,"3,543 / 1,187 / 1,184",28,-0.013,14.99,11.96,60/20/20 participant split

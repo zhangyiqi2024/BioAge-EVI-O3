@@ -1,0 +1,4 @@
+column_01,column_02,column_03,column_04,column_05,column_06,column_07,column_08
+Exposure,Buffer,Interaction coefficient,Interaction P,EVI at low O₃,EVI at high O₃,EVI difference,Difference P
+EVI,1 km,0.6931,0.4754,-1.3652,-1.3892,-0.0241,0.9804
+EVI,500 m,1.0347,0.3609,-1.0432,-1.4393,-0.3962,0.7269

@@ -1,0 +1,9 @@
+column_01,column_02,column_03,column_04,column_05,column_06
+Stratification,Stratum,N,Coef (95% CI),P value,Interaction P
+Overall,Overall,5914,"-0.524 (-0.817, -0.231)***",<0.001,—
+Gender,Male,2765,"-0.505 (-0.935, -0.075)*",0.021,0.977
+Gender,Female,3149,"-0.504 (-0.901, -0.108)*",0.013,0.977
+Age,≤65 years,4285,"-0.572 (-0.914, -0.231)**",0.001,0.881
+Age,>65 years,1629,"-0.466 (-1.010, 0.077)",0.093,0.881
+Region,Northern,2114,"-0.020 (-0.630, 0.590)",0.948,0.031*
+Region,Southern,3800,"-0.962 (-1.360, -0.564)***",<0.001,0.031*

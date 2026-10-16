@@ -1,0 +1,227 @@
+{
+  "table_id": "Table_S17",
+  "display_number": "S17",
+  "title": "Supplementary Table S17. Candidate machine-learning models and LightGBM predictive scenario analysis",
+  "panel": "",
+  "panel_title": "",
+  "notes_before": [],
+  "notes_after": [
+    "Note. Seven machine-learning algorithms were evaluated within a common training-test split (N_train = 4,734; N_test = 1,180). All candidate models achieved negligible held-out explained variance (R²_test range −0.006 to 0.005). LightGBM was retained as the final model for the SHAP and scenario analyses but also achieved negligible held-out explained variance (R²_test = 0.0045; RMSE_test = 14.99; best_iteration = 9). Scenario contrasts from this model are therefore descriptive outputs and should not be interpreted as causal intervention effects. A participant-level re-evaluation (60/20/20 participant-level split) confirmed the absence of out-of-sample skill (test R² = -0.013; Supplementary Note on predictive analyses and Supplementary Table S30). Abbreviations: GAM, generalised additive model; GBM, gradient boosting machine; LightGBM, light gradient boosting machine; MAE, mean absolute error; MAPE, mean absolute percentage error; PLS, partial least squares; RAE, relative absolute error; RMSE, root mean squared error; RRSE, root relative squared error; SHAP, Shapley additive explanations."
+  ],
+  "document_kind": "supplementary",
+  "document_name": "Zhang_supplementary_information.docx",
+  "document_sha256": "385a3f6706768d36ca6e2dc758e1e51807b43f4490f95a608f65d1c9456b52cf",
+  "physical_table_index": 18,
+  "body_element_index": 167,
+  "cell_layout": [
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ],
+    [
+      {
+        "column": 0,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 1,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 2,
+        "colspan": 1,
+        "vertical_merge": null
+      },
+      {
+        "column": 3,
+        "colspan": 1,
+        "vertical_merge": null
+      }
+    ]
+  ],
+  "header_row_count": 1,
+  "column_count": 4,
+  "schema_version": 1,
+  "csv_file": "Table_S17.csv",
+  "csv_sha256": "764825f5df8af2b7ef89a63895c0fafcb7841f7ec7653c7b57e040a4ff259381",
+  "row_count_including_display_headers": 8,
+  "csv_encoding": "UTF-8",
+  "values_are_strings": true,
+  "csv_header_role": "storage column keys; displayed headers are the first header_row_count data rows",
+  "export_method": "documented_displayed_values",
+  "provenance_status": "archived_aggregate_sources_linked",
+  "inference_scope": "Reconstruction of the authors' archived displayed results; no model refitting or independent verification of estimates.",
+  "aggregate_only": true,
+  "related_analysis_scripts": [
+    "04_code/CODE/36_predictive_scenarios.R"
+  ],
+  "linked_aggregate_results": [
+    {
+      "public_path": "03_source_data/tables/archived_results/predictive_model_performance_v4.csv",
+      "author_archive_path": "03_source_data/predictive_model_performance_v4.csv",
+      "sha256": "21e038c4a7f65bd7172ac7c9b3016a4d0b95195d01cb686e14abbae9647aeb90",
+      "row_count": 1,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    },
+    {
+      "public_path": "03_source_data/tables/archived_results/predictive_scenario_contrasts_v4.csv",
+      "author_archive_path": "03_source_data/predictive_scenario_contrasts_v4.csv",
+      "sha256": "742c2f2d299ecb8075d8549fc93271275ea83f2c5030b9cbd2d5bd6b40a2b006",
+      "row_count": 3,
+      "relationship": "related_aggregate_result; not asserted to derive every displayed cell"
+    }
+  ],
+  "other_author_evidence": []
+}

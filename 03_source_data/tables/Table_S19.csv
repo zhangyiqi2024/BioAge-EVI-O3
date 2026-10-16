@@ -1,0 +1,14 @@
+column_01,column_02,column_03,column_04
+#,Biomarker,Dimension,Status
+1,Chronological age,Age,Original PhenoAge
+2,WBC (10^3/uL),Immune,Original PhenoAge
+3,Lymphocyte percent (%),Immune,Original PhenoAge
+4,MCV (fL),Haematological,Original PhenoAge
+5,Creatinine (mg/dL),Renal,Original PhenoAge
+6,Glucose (mmol/L),Metabolic,Original PhenoAge
+7,hs-CRP (mg/L),Inflammatory,Original PhenoAge (as CRP)
+8,Cystatin C (mg/L),Renal,Additional measure: renal function
+9,HbA1c (%),Metabolic,Additional measure: glycaemic control
+10,BUN (mg/dL),Renal,Additional measure: protein metabolism
+11,Uric acid (mg/dL),Metabolic/Oxidative,Additional measure: urate metabolism
+12,Haemoglobin (g/dL),Haematological,Additional measure: haematological status

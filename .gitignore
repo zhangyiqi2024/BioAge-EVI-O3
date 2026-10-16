@@ -1,0 +1,14 @@
+*.dta
+*.rds
+*.RData
+*.Rhistory
+**/DATA/restricted/
+**/DATA/analysis_ready/*
+!**/DATA/analysis_ready/README.md
+!**/DATA/analysis_ready/codebook.csv
+**/DATA/canonical/
+**/logs/
+**/output/
+__pycache__/
+*.pyc
+.env

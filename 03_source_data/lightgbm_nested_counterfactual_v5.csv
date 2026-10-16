@@ -1,0 +1,2 @@
+"scenario","n_test","mean_reduction","ci_lower","ci_upper","pct_improved"
+"EVI >= 0.40 and O3 <= 60 ug/m3 (test set)",1184,1.46303667850399,1.38740264885285,1.53801955156264,90.8783783783784

@@ -1,0 +1,18 @@
+{
+  "title": "Supportive co-pollutant mutual-adjustment sensitivity analysis",
+  "source": "临时文件/co_pollutant_sensitivity_20261016/copollutant_model_results.csv",
+  "estimand": "Adjusted repeated-measure association per buffer-specific IQR",
+  "outcome": "BAA_PhenoAge supplied in the cleaned analytical dataset",
+  "model": "Unweighted WeMix random-intercept model with robust covariance and the primary covariate set",
+  "current_year_fields": [
+    "PM2.5",
+    "NO2"
+  ],
+  "limitations": [
+    "PM2.5 and NO2 are current-year fields in this sensitivity analysis; they are not treated as validated four-year means.",
+    "Models use complete cases, reducing the frame relative to the primary model.",
+    "This analysis is supportive and does not establish a causal or independent ozone effect."
+  ],
+  "rows": 24,
+  "csv": "03_source_data/copollutant_sensitivity_v1.csv"
+}

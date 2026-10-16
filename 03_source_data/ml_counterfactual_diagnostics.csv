@@ -1,0 +1,2 @@
+"Model","RMSE","MAE","R2","Mean_Counterfactual_Reduction"
+"LightGBM",14.991,12.032,0.0045,0.635

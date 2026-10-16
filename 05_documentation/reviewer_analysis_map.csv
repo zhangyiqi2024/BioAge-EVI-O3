@@ -1,0 +1,10 @@
+tier,item,public_source,render_or_analysis_code,role
+primary,Figure 1,03_source_data/Figure1_observed_distribution.csv,04_code/PYTHON/compose_main_figures.py,Study design and observed exposure/outcome context
+primary,Figure 2,03_source_data/Figure2_continuous_forest.csv,04_code/PYTHON/render_primary_figure.py,Mutually adjusted continuous-exposure associations
+primary,Figure 3,03_source_data/Figure3a_adjusted_means.csv; Figure3b_contrasts.csv,04_code/PYTHON/render_joint_sensitivity.py,Joint exposure patterns and sensitivity estimates
+primary,Figure 4,03_source_data/Figure4_exposure_response_v5.csv; Figure4_joint_contour_v5.csv,04_code/CODE/54_figure4_exposure_response.R,Exposure-response shape and joint exposure surface
+supportive,Table 1,03_source_data/tables/Table_1.csv,04_code/PYTHON/render_public_tables.py,Cohort description
+supportive,Figures S1-S4,03_source_data/FigureS1_participant_flow.csv and named sources,04_code/PYTHON/render_supplementary_figures.py,"Cohort flow, score checks, and model sensitivity"
+supportive,Figure S9,03_source_data/Figure3b_DiD_precision.csv,04_code/PYTHON/render_joint_sensitivity.py,Joint contrast precision and detectable-effect diagnostics
+exploratory,Figures S5-S8,"03_source_data/ named LightGBM, qgcomp, and calibration sources",04_code/PYTHON/render_supplementary_figures.py,"Exploratory predictive, mixture, and calibration modules"
+exploratory,Extended tables,03_source_data/tables/ and 06_tables/,04_code/CODE/ and 04_code/PYTHON/,"IV, mediation, MI, weighting, attrition, and co-pollutant sensitivity"
